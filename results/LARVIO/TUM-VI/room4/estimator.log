@@ -1,0 +1,49 @@
+
+===========================================
+using FEJ...
+estimating td... initial td = 0
+estimating extrinsic...
+not calibrating imu instrinsic online...
+Hybrid MSCKF...Maximum number of feature in state is 30
+features augmented into state will use 1d idp
+===========================================
+
+Images from now on will be utilized...
+
+Dynamic initialization success !
+
+No feature is tracked after descriptor matching!
+No feature is tracked !No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature is tracked !No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature is tracked !No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature is tracked !No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature is tracked !No feature in prev img !
+No feature in prev img !
+delta velocity: 0.169751
+delta position: 3.769253
+in measurementUpdate_hybrid: Update change is too large.

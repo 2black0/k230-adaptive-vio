@@ -1,0 +1,38 @@
+{
+  "method": "larvio",
+  "sequence": "V2_02_medium",
+  "profile": {
+    "sensor": "mono cam0",
+    "profile": "376x240 PGM mono + IMU",
+    "config": "config/euroc_mav_376_pgm.yaml"
+  },
+  "binary_sha256": "770a6353af4f537a08c16d1f6545bd4e5f6511448d9c0497a1a4ae946e079075",
+  "config": [
+    {
+      "name": "estimator",
+      "argv": [
+        "/root/k230-vio-campaign/bin/larvio",
+        "/dev/shm/k230-vio-campaign/datasets/20261005_220953/larvio/V2_02_medium/mav0/imu0/data.csv",
+        "/dev/shm/k230-vio-campaign/datasets/20261005_220953/larvio/V2_02_medium/mav0/cam0/data.csv",
+        "/dev/shm/k230-vio-campaign/datasets/20261005_220953/larvio/V2_02_medium/mav0/cam0/data",
+        "/root/k230-vio-campaign/cfg/larvio/euroc_mav_376_pgm.yaml",
+        "--per-frame-csv",
+        "/dev/shm/k230-vio-campaign/20261005_220953/larvio/V2_02_medium/raw/framelog.csv",
+        "--per-frame-json",
+        "/dev/shm/k230-vio-campaign/20261005_220953/larvio/V2_02_medium/raw/summary.json",
+        "--dataset-name",
+        "V2_02_medium"
+      ]
+    }
+  ],
+  "environment": {
+    "LD_LIBRARY_PATH": "/root/k230-vio-campaign/lib:/root/k230-native/lib:/root/k230-vio-euroc-test-20261005/lib"
+  },
+  "resolution": [
+    376,
+    240
+  ],
+  "imu_source": "/home/ardyseto/dataset/PGM-quarter/euroc_V2_02_medium",
+  "groundtruth_source": "/home/ardyseto/dataset/PGM-quarter/euroc_V2_02_medium",
+  "runtime_sec_includes_adb_pull": 210.937
+}

@@ -1,0 +1,32 @@
+{
+  "method": "levio",
+  "sequence": "V2_03_difficult",
+  "profile": {
+    "sensor": "mono cam0",
+    "profile": "376x240 PGM mono + IMU",
+    "config": "compiled euroc_half profile"
+  },
+  "binary_sha256": "7935f4b42a2fbfa70360e948074af939a6aa27edb191fc506cd8e414254bee24",
+  "config": [
+    {
+      "name": "estimator",
+      "argv": [
+        "/root/k230-vio-campaign/bin/levio",
+        "--data",
+        "/dev/shm/k230-vio-campaign/levio-data/20261005_220953/V2_03_difficult",
+        "--log-dir",
+        "/dev/shm/k230-vio-campaign/20261005_220953/levio/V2_03_difficult/raw"
+      ]
+    }
+  ],
+  "environment": {
+    "LD_LIBRARY_PATH": "/root/k230-vio-campaign/lib:/root/k230-native/lib:/root/k230-vio-euroc-test-20261005/lib"
+  },
+  "resolution": [
+    376,
+    240
+  ],
+  "imu_source": "/home/ardyseto/dataset/PGM-quarter/euroc_V2_03_difficult",
+  "groundtruth_source": "/home/ardyseto/dataset/PGM-quarter/euroc_V2_03_difficult",
+  "runtime_sec_includes_adb_pull": 121.144
+}

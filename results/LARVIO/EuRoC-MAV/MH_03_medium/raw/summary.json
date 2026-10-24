@@ -1,0 +1,17 @@
+{
+  "dataset": "MH_03_medium",
+  "num_frames_total": 2700,
+  "num_frames_processed": 2638,
+  "exec_time_s": 280.410551,
+  "fps_avg": 9.628739,
+  "ate_rmse_m": null,
+  "tsr_pct": 97.703704,
+  "timing_us": {
+    "frame_interval": { "mean": 103873.376436, "min": 61061.000000, "max": 381606.000000 },
+    "pipeline_latency": { "mean": 95835.451111, "min": 44806.000000, "max": 374187.000000 }
+  },
+  "metrics": {
+    "throughput": { "value": 9.628739, "unit": "fps" },
+    "tsr": { "value": 97.703704, "unit": "%" }
+  }
+}

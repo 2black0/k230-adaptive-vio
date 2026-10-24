@@ -1,0 +1,17 @@
+{
+  "method": "levio",
+  "dataset": "tumvi",
+  "sequence": "room1",
+  "resolution": "half",
+  "target": "board",
+  "mode": "paced",
+  "start": 0,
+  "stop": 0,
+  "seed": "0x12345678",
+  "binary": "/home/ardyseto/Downloads/k230-vio/k230-levio/build-k230-tumvi-serial/levio_replay",
+  "binary_sha256": "fb9c44d923ad10a9621e05f8e51e9ccf1801ab52821179e04d0154bff3aa283f",
+  "git_commit": "d6bfcbd",
+  "exit_code": 0,
+  "verdict": "ok",
+  "finished": "2026-10-14T19:10:45"
+}

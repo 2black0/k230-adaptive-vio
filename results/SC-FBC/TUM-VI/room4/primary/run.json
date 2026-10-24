@@ -1,0 +1,374 @@
+{
+  "dataset": "tum-vi",
+  "sequence": "room4",
+  "resolution": "half",
+  "arm": "floor-only",
+  "seed": 0,
+  "logging": true,
+  "block": "tumvi-five-arm",
+  "stress": false,
+  "full_start": false,
+  "id": "tumvi-five-arm/tum-vi/room4/floor-only/s0",
+  "expected_frames": 2228,
+  "start_offset_s": 0,
+  "input": {
+    "camera_source": "/root/dataset/PGM-half/tumvi_room4/mav0/cam0",
+    "imu_source": "/root/dataset/PGM-quarter/tumvi_room4/mav0/imu0",
+    "camera_manifest_sha256": "63ddda4fb771ad24482a878804ab7a9799c2cebbec8e20a7f75c3c0f63a4992d",
+    "imu_sha256": "4249d4036b3c03c55b709f6f634d975d024999fb017ab3539cfa71580793a3be",
+    "calibration_sha256": "8a765645b17503e2ba4855bd11d5cdae179aa9d5e7990b20b6d8838675ca5a69",
+    "frames": 2228,
+    "first_stamp": 1520531124.1504443,
+    "camera_median_dt_s": 0.05000185966491699
+  },
+  "campaign_binary_sha256": "821171e411529f8dd000ca9336f15617e2719adf74187352051b305dc8472c8a",
+  "config_sha256": "e15f702fb59f1cdecd9d4661787e349c05d477085a97631651f5755320f78efe",
+  "command": [
+    "/root/k230-realtime-tumvi-five-arm-20261013/eqvio_opt",
+    "/tmp/k230-realtime-tumvi-five-arm-20261013/input/",
+    "/root/k230-realtime-tumvi-five-arm-20261013/tum-vi.yaml",
+    "--mode",
+    "asl",
+    "--output",
+    "/tmp/k230-realtime-tumvi-five-arm-20261013/runs/tumvi-five-arm/tum-vi/room4/floor-only/s0",
+    "--camera",
+    "/tmp/k230-realtime-tumvi-five-arm-20261013/input/intrinsics.yaml",
+    "--timing",
+    "--limitRate",
+    "0",
+    "--pacedReplay",
+    "--seed",
+    "0",
+    "--featureDistOverride",
+    "80",
+    "--filterLog",
+    "/tmp/k230-realtime-tumvi-five-arm-20261013/runs/tumvi-five-arm/tum-vi/room4/floor-only/s0/filterlog.csv",
+    "--adaptiveBudget",
+    "starve",
+    "--adaptiveBudgetMaxLow",
+    "5",
+    "--adaptiveBudgetMaxHigh",
+    "20",
+    "--adaptiveBudgetMeasFloor",
+    "8",
+    "--adaptiveBudgetHold",
+    "5",
+    "--adaptiveBudgetAutoFloorWindow",
+    "50",
+    "--adaptiveBudgetAutoFloorPercentile",
+    "40",
+    "--adaptiveBudgetAutoHoldWindow",
+    "50",
+    "--adaptiveBudgetAutoHoldGain",
+    "40",
+    "--adaptiveBudgetAutoFloor"
+  ],
+  "board_before": "23625.13 21158.05\n7157",
+  "board_after": "23740.62 21235.20\n7158",
+  "exit_code": 0,
+  "raw_sha256": {
+    "run_config.csv": "e9253f5307cc11fec35e7efa613ebe0275e4daea698fcb527dc34a27232c0050",
+    "IMUState.csv": "e81602c6cc22b49d4e174332e7ff1aef24f062dd55f61aa5d7eec608df5314e6",
+    "die_milliC_end": "45bf5c972d84b869b4cde4ee2ea7eb0951c49ff27ab5c70fea29a04bb94836c2",
+    "bias.csv": "07e95d11d11986965231305f602d85289c99d7ecaf8785b30c38dc509f8c425f",
+    "memory.csv": "d22abea49fdbd7a2ea08d113756aedb547afa13719c22b904cf3fd46eafbdea3",
+    "resource.csv": "760fcc06a43cb50256bb1d729e3c46a16f1b79fcb9af0fb0760c3776caf94b17",
+    "replay_epoch.txt": "5e0cbfe622620b6653eafcba5cf17cca2d63497404bfc84e2a0440658bc7e0be",
+    "timing.csv": "82e56003fedd1c0d47df1b9b1cb2c9cf975db953f7c07450b2ae8a6c7245b359",
+    "realtime.csv": "257b081117400576efcf7504732d17dad15c86a4d1a88857ad0ddf772bd8d3f3",
+    "EXITCODE": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "uptime_end_s": "389f94f9001a68f2f4aa1e31e52ced5f39f1cd4f61521b7e9de805c47d6edf85",
+    "runner.pid": "fa194a568ce94788daf0a70e4a413a17db182d358fdd82b9290a6c8eff1b583c",
+    "run.log": "2bae613176307c5c58ae206a8291658edb53d59c92453d0023501edaabebde07",
+    "camera.csv": "86a2c9177e886697a09b6492dc29bc7734397f5f7774e03c286dca2a976ab3f0",
+    "filterlog.csv": "88a5d649dc9296d6bcc5867fd527863e1724c45deeca3c84f084b86faf63bbe4"
+  },
+  "evaluated_at": "2026-10-13T06:54:15.552585+00:00",
+  "processed_frames": 2228,
+  "estimator_duration_s": 111.405,
+  "stage_mean_ms": {
+    "correction": 0.4399510614901257,
+    "detect": 6.942562684021544,
+    "features": 11.843897455116696,
+    "image load": 0.344932223967684,
+    "klt": 4.17814894524237,
+    "nn_detect": 0.0,
+    "preprocessing": 0.17840563330341114,
+    "propagate": 0.0,
+    "propagation": 0.5436746813285458,
+    "selective": 0.0,
+    "static ransac": 0.2706857652603232,
+    "total": 13.380119744165171,
+    "total vision update": 1.1772134955116698,
+    "write output": 0.795453395870736
+  },
+  "detector_call_fraction": 0.7930879712746858,
+  "filterlog_rows": 2228,
+  "controller": {
+    "switches": 237,
+    "starvation_fraction": 0.29488330341113106,
+    "floor": {
+      "mean": 4.661579892280072,
+      "p50": 5.0,
+      "p95": 6.0,
+      "p99": 8.0,
+      "max": 8.0
+    },
+    "hold": {
+      "mean": 5.0,
+      "p50": 5.0,
+      "p95": 5.0,
+      "p99": 5.0,
+      "max": 5.0
+    }
+  },
+  "accepted_observations": {
+    "mean": 4.891831238779174,
+    "p50": 5.0,
+    "p95": 7.0,
+    "p99": 8.0,
+    "max": 9.0
+  },
+  "applied_update_fraction": 0.9995511669658886,
+  "memory_rows": [
+    {
+      "frame": "0",
+      "rss_kib": "12288",
+      "peak_kib": "12288"
+    },
+    {
+      "frame": "1",
+      "rss_kib": "13820",
+      "peak_kib": "14848"
+    },
+    {
+      "frame": "100",
+      "rss_kib": "14420",
+      "peak_kib": "15924"
+    },
+    {
+      "frame": "200",
+      "rss_kib": "14580",
+      "peak_kib": "16084"
+    },
+    {
+      "frame": "300",
+      "rss_kib": "14708",
+      "peak_kib": "16116"
+    },
+    {
+      "frame": "400",
+      "rss_kib": "14836",
+      "peak_kib": "16244"
+    },
+    {
+      "frame": "500",
+      "rss_kib": "15072",
+      "peak_kib": "16372"
+    },
+    {
+      "frame": "600",
+      "rss_kib": "15092",
+      "peak_kib": "16500"
+    },
+    {
+      "frame": "700",
+      "rss_kib": "15356",
+      "peak_kib": "16764"
+    },
+    {
+      "frame": "800",
+      "rss_kib": "15500",
+      "peak_kib": "16780"
+    },
+    {
+      "frame": "900",
+      "rss_kib": "16788",
+      "peak_kib": "16912"
+    },
+    {
+      "frame": "1000",
+      "rss_kib": "16788",
+      "peak_kib": "16912"
+    },
+    {
+      "frame": "1100",
+      "rss_kib": "16916",
+      "peak_kib": "16916"
+    },
+    {
+      "frame": "1200",
+      "rss_kib": "16916",
+      "peak_kib": "16916"
+    },
+    {
+      "frame": "1300",
+      "rss_kib": "15892",
+      "peak_kib": "17300"
+    },
+    {
+      "frame": "1400",
+      "rss_kib": "17460",
+      "peak_kib": "17460"
+    },
+    {
+      "frame": "1500",
+      "rss_kib": "17460",
+      "peak_kib": "17460"
+    },
+    {
+      "frame": "1600",
+      "rss_kib": "17460",
+      "peak_kib": "17460"
+    },
+    {
+      "frame": "1700",
+      "rss_kib": "17972",
+      "peak_kib": "17972"
+    },
+    {
+      "frame": "1800",
+      "rss_kib": "17972",
+      "peak_kib": "17972"
+    },
+    {
+      "frame": "1900",
+      "rss_kib": "17972",
+      "peak_kib": "17972"
+    },
+    {
+      "frame": "2000",
+      "rss_kib": "18100",
+      "peak_kib": "18100"
+    },
+    {
+      "frame": "2100",
+      "rss_kib": "18356",
+      "peak_kib": "18356"
+    },
+    {
+      "frame": "2200",
+      "rss_kib": "18356",
+      "peak_kib": "18356"
+    },
+    {
+      "frame": "2228",
+      "rss_kib": "18356",
+      "peak_kib": "18356"
+    }
+  ],
+  "process_peak_rss_mib": 17.92578125,
+  "timing_rows": 2228,
+  "pipeline_latency_ms": {
+    "mean": 13.380119744165171,
+    "p50": 13.39465,
+    "p95": 21.394075000000004,
+    "p99": 29.999771000000006,
+    "max": 40.990899999999996
+  },
+  "offline_pipeline_over_50ms_fraction": 0.0,
+  "cpu_pct": {
+    "mean": 28.243478260869573,
+    "p50": 28.3,
+    "p95": 34.55,
+    "p99": 38.66799999999999,
+    "max": 46.15
+  },
+  "sampled_rss_mib": {
+    "mean": 16.271956521739128,
+    "p50": 16.52,
+    "p95": 17.926,
+    "p99": 17.926,
+    "max": 17.926
+  },
+  "complete_input": true,
+  "accuracy": {
+    "ate_rmse_m": 0.4067247179063546,
+    "rpe_rmse_m": 0.00519691721860739,
+    "association_tolerance_s": 0.01,
+    "associated_poses": 2187,
+    "estimated_poses": 2227,
+    "association_max_difference_s": 0.009785890579223633,
+    "converged": true,
+    "rotation": [
+      [
+        0.9986626276048928,
+        0.05154046285902003,
+        -0.004066560410073851
+      ],
+      [
+        -0.05170040336015373,
+        0.9958022487422786,
+        -0.07553111737699378
+      ],
+      [
+        0.00015658125112862808,
+        0.0756403469591315,
+        0.9971351530230061
+      ]
+    ],
+    "translation": [
+      1.0100360559254264,
+      -0.9219635086921604,
+      1.287358488405403
+    ],
+    "scale": 1.0
+  },
+  "rpe_1s_individual": {
+    "rpe_rmse_m": 0.05788633773008415,
+    "maximum_error_m": 0.21761000341266717,
+    "common_windows": 1011,
+    "horizon_s": 1.0,
+    "grid_step_s": 0.1,
+    "gt_time_origin_s": 1520531124.1778755
+  },
+  "trajectory_sha256": "73723056094d34566745faae360e677fc1dfb09f5a3e58c49c1b6e89975e5bca",
+  "verdict": "ok",
+  "paced_estimator_fps": 19.999102374220186,
+  "realtime": {
+    "frames": 2228,
+    "arrival_to_output_ms": {
+      "mean": 14.39824970302278,
+      "p50": 14.258194999328566,
+      "p95": 23.166870313446424,
+      "p99": 34.06652987507876,
+      "max": 43.83941563391103
+    },
+    "processing_ms": {
+      "mean": 14.294412998204907,
+      "p50": 14.191166499998076,
+      "p95": 22.48131515000421,
+      "p99": 32.45213394999956,
+      "max": 43.71929599999991
+    },
+    "dispatch_lateness_ms": {
+      "mean": 0.10383670481787349,
+      "p50": 0.06305643212556333,
+      "p95": 0.11158239031479056,
+      "p99": 1.5778248456982722,
+      "max": 4.657772136351213
+    },
+    "deadline_ms": 50,
+    "deadline_miss_fraction": 0.0,
+    "pending_camera_at_dispatch": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 0.0
+    },
+    "pending_camera_at_output": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 0.0
+    },
+    "camera_median_dt_s": 0.05000185966491699,
+    "final_output_lag_ms": 6.288204644903317,
+    "backlog_slope_frames_per_s": 0.0,
+    "expected_input_frames": 2228,
+    "unprocessed_input_frames": 0,
+    "policy": "lossless timestamp-scheduled replay; pending cameras inferred from schedule; no live capture"
+  }
+}

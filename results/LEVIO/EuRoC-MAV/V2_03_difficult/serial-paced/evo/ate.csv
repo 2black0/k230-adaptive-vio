@@ -1,0 +1,8 @@
+metric,value
+ate_rmse,1.941686
+ate_mean,1.756618
+ate_median,1.761185
+ate_max,3.850327
+ate_std,0.827306
+rpe_rmse,0.055609
+rpe_mean,0.045066

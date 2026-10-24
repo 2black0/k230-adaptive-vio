@@ -1,0 +1,20 @@
+{
+  "method": "levio",
+  "sequence": "room6",
+  "resolution": "256x256",
+  "dataset": "TUM-VI PGM half",
+  "sensor": "mono cam0",
+  "exit_code": 0,
+  "elapsed_sec": 131.08783151498938,
+  "pose_count": 2638,
+  "requested_frames": null,
+  "fps_wall": 20.123912109251386,
+  "latency_wall_mean_us_per_pose": 49692.12718536368,
+  "latency_pipeline_mean_us": 49601.7857738998,
+  "latency_source": "estimator_pipeline",
+  "cpu_pct_mean": 97.65670826833076,
+  "rss_mb_peak": 2.625,
+  "resource_samples": 641,
+  "ate_rmse": 1.05383,
+  "rpe_rmse": 0.488377
+}

@@ -1,0 +1,126 @@
+
+===========================================
+using FEJ...
+estimating td... initial td = 0
+estimating extrinsic...
+not calibrating imu instrinsic online...
+Hybrid MSCKF...Maximum number of feature in state is 30
+features augmented into state will use 1d idp
+===========================================
+
+Images from now on will be utilized...
+
+Dynamic initialization success !
+
+delta velocity: 0.362385
+delta position: 1.543709
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.285085
+delta position: 1.791916
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 2.480140
+delta position: 15.052586
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.312955
+delta position: 2.025541
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.238379
+delta position: 1.555905
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.239106
+delta position: 1.593177
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.230656
+delta position: 1.844922
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked after descriptor matching!
+delta velocity: 1.101041
+delta position: 15.853560
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.220578
+delta position: 3.250510
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 3.119959
+delta position: 45.418934
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.171665
+delta position: 17.149919
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.614657
+delta position: 9.019807
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked after descriptor matching!
+delta velocity: 0.660883
+delta position: 12.115429
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.199014
+delta position: 4.202716
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.915445
+delta position: 19.797924
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.168435
+delta position: 3.648863
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.944947
+delta position: 31.292409
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature is tracked !No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+delta velocity: 3.296567
+delta position: 193.400343
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked after descriptor matching!
+No feature in prev img !
+delta velocity: 0.212059
+delta position: 13.958051
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.058593
+delta position: 3.452082
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 2.466985
+delta position: 165.345968
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 85.390378
+delta position: 5110.724546
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.052453
+delta position: 4.274161
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.197938
+delta position: 16.941005
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.053651
+delta position: 3.223109
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.729084
+delta position: 52.830931
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.198712
+delta position: 13.750528
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.022194
+delta position: 1.635886
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.340786
+delta position: 23.796419
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.114515
+delta position: 8.610082
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.593973
+delta position: 44.162404
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.688942
+delta position: 61.443733
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.048271
+delta position: 6.681009
+in measurementUpdate_hybrid: Update change is too large.

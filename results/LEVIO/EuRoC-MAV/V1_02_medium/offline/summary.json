@@ -1,0 +1,18 @@
+{
+  "method": "levio",
+  "sequence": "V1_02_medium",
+  "resolution": "376x240",
+  "dataset": "EuRoC-MAV PGM half",
+  "sensor": "mono cam0",
+  "exit_code": 0,
+  "elapsed_sec": 131.0725076199742,
+  "pose_count": 1712,
+  "requested_frames": null,
+  "fps_wall": 13.061472852596188,
+  "latency_wall_mean_us_per_pose": 76561.04417054568,
+  "latency_pipeline_mean_us": 75085.28192982456,
+  "latency_source": "estimator_pipeline",
+  "cpu_pct_mean": 97.5837717908082,
+  "rss_mb_peak": 3.0,
+  "resource_samples": 631
+}

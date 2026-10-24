@@ -1,0 +1,15 @@
+metric,value
+sequence,V1_02_medium
+mode,fast
+frames,1710
+frames_dropped,0
+keyframes,812
+wall_time_s,128.555
+throughput_fps,13.302
+fps_mean,15.235
+fps_p95,26.505
+latency_mean_us,75085.3
+latency_p95_us,127651.6
+cpu_pct_mean,98.04
+rss_peak_mb,3.000
+alloc_peak_bytes,3627320

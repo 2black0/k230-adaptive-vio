@@ -1,0 +1,27 @@
+% Archived 2026-09-30: historical measurements; excluded from current claims.
+Whole-board power is measured at the USB-C input with a 1\,mWh energy counter. Twelve sessions cover MH02, V203, Room2, and Room6 at half resolution, with 20\,s idle windows before and after execution. Three configurations compare the default fixed cap, fixed cap seven, and a fixed-parameter policy with caps 3 and 7, floor 5, and hold 3. This separate study characterizes feature-cap effects rather than the self-calibrated accuracy configuration.
+
+\begin{table}[!t]
+\caption{Whole-board K230 power at half resolution. Active power is accumulated energy divided by duration, with 20\,s idle windows before and after each run.}
+\label{tab:k230_power}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lccc@{}}
+\toprule
+& \multicolumn{3}{c}{Active power (W)} \\
+\cmidrule(lr){2-4}
+Sequence & Fixed default cap & Fixed cap 7 & Budget policy \\
+\midrule
+EuRoC MH02 & 1.03 & 0.93 & 1.00 \\
+EuRoC V203 & 1.04 & 0.93 & 0.92 \\
+TUM-VI Room2 & 0.94 & 0.89 & 1.04 \\
+TUM-VI Room6 & 1.02 & 1.04 & 1.02 \\
+\midrule
+Mean & 1.01 & 0.95 & 0.99 \\
+Idle & \multicolumn{3}{c}{0.72 to 0.90 (instantaneous 0.81)} \\
+\bottomrule
+\end{tabular*}
+\end{table}
+
+Table~\ref{tab:k230_power} gives active power of 0.89 to 1.04\,W and idle power of 0.72 to 0.90\,W, consistent with an instantaneous idle reading near 0.81\,W. Means of 0.95, 0.99, and 1.01\,W are close relative to counter resolution and energies of 13 to 33\,mWh. Under comparable power, higher throughput implies lower energy per image through power divided by rate. This is an operating-point interpretation, with session durations including adb launch overhead and not used for a paired energy comparison.

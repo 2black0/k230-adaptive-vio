@@ -1,0 +1,15 @@
+
+===========================================
+using FEJ...
+estimating td... initial td = 0
+estimating extrinsic...
+not calibrating imu instrinsic online...
+Hybrid MSCKF...Maximum number of feature in state is 30
+features augmented into state will use 1d idp
+===========================================
+
+Images from now on will be utilized...
+
+Inclinometer-initializer completed by using 191 imu data !!!
+
+No feature is tracked after descriptor matching!

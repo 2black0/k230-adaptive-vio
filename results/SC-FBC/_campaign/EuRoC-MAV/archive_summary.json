@@ -1,0 +1,853 @@
+[
+  {
+    "dataset": "euroc",
+    "sequence": "MH_01_easy",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_01_easy/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "99809b768b830b89ab3ed6df0ef85ffe1247f07501223cc55e0c4ec8c6e7eb26",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 20.05842292876796,
+      "p50": 19.890099999999997,
+      "p95": 29.9454,
+      "p99": 40.43919000000001,
+      "max": 67.5403
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 8.162947110975237,
+      "p50": 8.0,
+      "p95": 11.0,
+      "p99": 11.0,
+      "max": 12.0
+    },
+    "update_applied_fraction": 1.0
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_01_easy",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_01_easy/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "2e3d87cdff10212180fed44ec6b5e01af464aa5f8965e9870d0ce19a6a4e7902",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 15.00341241210639,
+      "p50": 16.3669,
+      "p95": 21.38805,
+      "p99": 36.37730000000001,
+      "max": 48.7725
+    },
+    "applied_cap": {
+      "mean": 13.76031794558239,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.906450626719658,
+      "p50": 8.0,
+      "p95": 10.0,
+      "p99": 11.0,
+      "max": 13.0
+    },
+    "update_applied_fraction": 1.0,
+    "controller_switches": 208
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_02_easy",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_02_easy/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "3a3015ee54b87ac4f52f08ec30866c1bca2e9d662e0798c1be92e56dbcba2cba",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 20.04155417763158,
+      "p50": 19.79865,
+      "p95": 29.793235,
+      "p99": 40.16445300000001,
+      "max": 49.654300000000006
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.854276315789473,
+      "p50": 8.0,
+      "p95": 11.0,
+      "p99": 12.0,
+      "max": 13.0
+    },
+    "update_applied_fraction": 1.0
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_02_easy",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_02_easy/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "b1f2e05721df0ef685556f70796e8fa0c0041f3b4c199f1a32ca6cacf02edb49",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 16.186917335526317,
+      "p50": 17.098,
+      "p95": 23.65783499999999,
+      "p99": 37.69896600000006,
+      "max": 52.424699999999994
+    },
+    "applied_cap": {
+      "mean": 15.161184210526315,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.581578947368421,
+      "p50": 8.0,
+      "p95": 10.0,
+      "p99": 11.0,
+      "max": 12.0
+    },
+    "update_applied_fraction": 1.0,
+    "controller_switches": 208
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_03_medium",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_03_medium/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "9dce4c73afb03f9dfcb312d02c366e2a1307ba5ca68262264966e4ade15023d8",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 19.792764296296298,
+      "p50": 19.703000000000003,
+      "p95": 28.89909499999996,
+      "p99": 39.8876159999999,
+      "max": 50.8063
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.814074074074074,
+      "p50": 8.0,
+      "p95": 10.0,
+      "p99": 12.0,
+      "max": 13.0
+    },
+    "update_applied_fraction": 1.0
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_03_medium",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_03_medium/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "d3ddb29ddaca4977e5f90d0c9972887041e4e89869dbde786064fc9422a06ec6",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 16.07382733333333,
+      "p50": 16.6715,
+      "p95": 24.021984999999994,
+      "p99": 38.897559,
+      "max": 46.974199999999996
+    },
+    "applied_cap": {
+      "mean": 15.112962962962962,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.7374074074074075,
+      "p50": 8.0,
+      "p95": 10.0,
+      "p99": 11.0,
+      "max": 12.0
+    },
+    "update_applied_fraction": 1.0,
+    "controller_switches": 189
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_04_difficult",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_04_difficult/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "c3455f79188a9bcd949ec972514682f8413e3f143fccf8d7daa1ca16bc327166",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 19.738267372047243,
+      "p50": 19.605449999999998,
+      "p95": 28.62488499999999,
+      "p99": 40.579164000000006,
+      "max": 54.3185
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.696507624200689,
+      "p50": 8.0,
+      "p95": 10.0,
+      "p99": 11.0,
+      "max": 13.0
+    },
+    "update_applied_fraction": 0.999508116084604
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_04_difficult",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_04_difficult/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "1081eb6cfed23b28d31e336a7395f5ef783c075ae813c356a3586e09e2ba22f1",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 15.838693651574802,
+      "p50": 16.355249999999998,
+      "p95": 23.57275499999999,
+      "p99": 37.45602100000003,
+      "max": 57.0817
+    },
+    "applied_cap": {
+      "mean": 14.623708804722085,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.508116084604033,
+      "p50": 8.0,
+      "p95": 10.0,
+      "p99": 11.0,
+      "max": 12.0
+    },
+    "update_applied_fraction": 0.999508116084604,
+    "controller_switches": 125
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_05_difficult",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_05_difficult/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "f46d5a5a8039b79eca43c265fde3796fbb513bccbc2db3ca3752bd40912f093b",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 19.700347799295773,
+      "p50": 19.6862,
+      "p95": 28.418904999999988,
+      "p99": 39.671364999999994,
+      "max": 50.114599999999996
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.7677078750549935,
+      "p50": 8.0,
+      "p95": 11.0,
+      "p99": 12.0,
+      "max": 12.0
+    },
+    "update_applied_fraction": 0.9995600527936648
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "MH_05_difficult",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/MH_05_difficult/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "5033bf2bbb0fd6d68e11d1a5bdf78887a026ceb68c90abc29363a081754a4470",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 15.775279269366198,
+      "p50": 16.3624,
+      "p95": 22.397429999999904,
+      "p99": 39.42193399999997,
+      "max": 50.695
+    },
+    "applied_cap": {
+      "mean": 14.703035635723714,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.512098548174219,
+      "p50": 8.0,
+      "p95": 11.0,
+      "p99": 11.0,
+      "max": 12.0
+    },
+    "update_applied_fraction": 0.9995600527936648,
+    "controller_switches": 159
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V1_01_easy",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V1_01_easy/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "7e9f180d71ea33cbb124d823057346021564884d7de621bc90ea37cabb2ea4a6",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 19.36104204740639,
+      "p50": 19.4511,
+      "p95": 28.68025,
+      "p99": 39.79769,
+      "max": 50.3189
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.4742445054945055,
+      "p50": 8.0,
+      "p95": 10.0,
+      "p99": 10.0,
+      "max": 11.0
+    },
+    "update_applied_fraction": 0.9996565934065934
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V1_01_easy",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V1_01_easy/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "9497125834527281cb153b7613dcbe76ee3481290860c6a7bac9f611b0013c07",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 15.54929756097561,
+      "p50": 16.27,
+      "p95": 22.230249999999998,
+      "p99": 36.57670000000001,
+      "max": 48.6923
+    },
+    "applied_cap": {
+      "mean": 15.386332417582418,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.157967032967033,
+      "p50": 7.0,
+      "p95": 9.0,
+      "p99": 10.0,
+      "max": 11.0
+    },
+    "update_applied_fraction": 0.9996565934065934,
+    "controller_switches": 211
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V1_02_medium",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V1_02_medium/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "d6a5e136add0334144ec95253c322576f5adfea54b95ed59bc9c2b9016edee62",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 18.204545699239322,
+      "p50": 16.4784,
+      "p95": 26.949839999999988,
+      "p99": 36.23319200000001,
+      "max": 45.0419
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 6.421052631578948,
+      "p50": 6.0,
+      "p95": 9.0,
+      "p99": 10.0,
+      "max": 11.0
+    },
+    "update_applied_fraction": 0.9994152046783625
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V1_02_medium",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V1_02_medium/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "bcd4671ed6f60b9d97195581150b425110cb8e1540c63cfc355547c4b1aa4250",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 14.956636337039203,
+      "p50": 15.9268,
+      "p95": 20.90862,
+      "p99": 36.14061600000001,
+      "max": 44.1653
+    },
+    "applied_cap": {
+      "mean": 15.967836257309942,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 6.116374269005848,
+      "p50": 6.0,
+      "p95": 9.0,
+      "p99": 9.0,
+      "max": 10.0
+    },
+    "update_applied_fraction": 0.9994152046783625,
+    "controller_switches": 123
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V1_03_difficult",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V1_03_difficult/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "7460569bd9f69a0c2bca4ee72cfd49c8677e75df0e3129189105fc3cd259b9d3",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 17.534155141926476,
+      "p50": 16.182299999999998,
+      "p95": 26.420699999999997,
+      "p99": 36.04294,
+      "max": 46.408699999999996
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 5.621684504420661,
+      "p50": 6.0,
+      "p95": 8.0,
+      "p99": 10.0,
+      "max": 11.0
+    },
+    "update_applied_fraction": 1.0
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V1_03_difficult",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V1_03_difficult/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "802818a7a9879bb7f4651d60563f1fef083edcdcf4c31fbd084c50e06dc7d87a",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 14.993057189390413,
+      "p50": 15.8265,
+      "p95": 21.658179999999998,
+      "p99": 33.975704,
+      "max": 41.9284
+    },
+    "applied_cap": {
+      "mean": 16.617031177291764,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 5.5058166589111215,
+      "p50": 6.0,
+      "p95": 8.0,
+      "p99": 9.0,
+      "max": 12.0
+    },
+    "update_applied_fraction": 1.0,
+    "controller_switches": 127
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V2_01_easy",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V2_01_easy/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "10cc386184925e8d483bdd6727c8936567fd542da9b9e6bed2ba1666617b0a67",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 19.19672850877193,
+      "p50": 19.35405,
+      "p95": 28.249284999999997,
+      "p99": 38.83313900000001,
+      "max": 47.2662
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 7.282894736842105,
+      "p50": 7.0,
+      "p95": 10.0,
+      "p99": 10.0,
+      "max": 11.0
+    },
+    "update_applied_fraction": 1.0
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V2_01_easy",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V2_01_easy/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "4fb2e6ebf0d61944cdf64959461ce8f8872b294f08409256a1abf407284b3f62",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 15.505591228070175,
+      "p50": 16.1616,
+      "p95": 22.569859999999984,
+      "p99": 35.926699000000006,
+      "max": 46.1353
+    },
+    "applied_cap": {
+      "mean": 15.804824561403509,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 6.944298245614035,
+      "p50": 7.0,
+      "p95": 9.0,
+      "p99": 10.0,
+      "max": 11.0
+    },
+    "update_applied_fraction": 1.0,
+    "controller_switches": 154
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V2_02_medium",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V2_02_medium/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "df4da68c12feb92067c7205e6d6acb12d51a9fb4ddd9a7ab1baa63c555351157",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 18.371341865417378,
+      "p50": 16.537950000000002,
+      "p95": 26.896065000000007,
+      "p99": 37.91686700000003,
+      "max": 51.2286
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 6.382453151618399,
+      "p50": 6.0,
+      "p95": 9.0,
+      "p99": 10.0,
+      "max": 12.0
+    },
+    "update_applied_fraction": 1.0
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V2_02_medium",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V2_02_medium/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "cc73a539ac13ecf99a5b5d175608840bfa1ae314f5fcc2c9de0488f6467c3709",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 15.91064097103918,
+      "p50": 16.1777,
+      "p95": 23.546625000000034,
+      "p99": 35.955235000000016,
+      "max": 48.4549
+    },
+    "applied_cap": {
+      "mean": 16.92930153321976,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 6.213798977853492,
+      "p50": 6.0,
+      "p95": 9.0,
+      "p99": 10.0,
+      "max": 11.0
+    },
+    "update_applied_fraction": 1.0,
+    "controller_switches": 168
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V2_03_difficult",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V2_03_difficult/current_eqvio_baseline_timing.csv",
+    "timing_sha256": "2d0518c614bc5dbdbe37b6c6500818fb63c2497161a51c56ff1e429643087130",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 17.42806772514315,
+      "p50": 16.0307,
+      "p95": 26.532400000000003,
+      "p99": 35.9408,
+      "max": 50.755
+    },
+    "applied_cap": {
+      "mean": 40.0,
+      "p50": 40.0,
+      "p95": 40.0,
+      "p99": 40.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 5.309053069719043,
+      "p50": 5.0,
+      "p95": 8.0,
+      "p99": 10.0,
+      "max": 11.0
+    },
+    "update_applied_fraction": 0.9994797086368367
+  },
+  {
+    "dataset": "euroc",
+    "sequence": "V2_03_difficult",
+    "arm": "ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/k230-eqvio/result/k230/euroc-mav/V2_03_difficult/current_eqvio_ours_sc_afb_timing.csv",
+    "timing_sha256": "a6a6e99cec542a479718bb0ad55e48e217ca66b53f0b4a54f883f3497655abc8",
+    "scope": "offline pipeline, not arrival-to-output",
+    "latency_ms": {
+      "mean": 15.194848724622593,
+      "p50": 15.790899999999999,
+      "p95": 20.9606,
+      "p99": 34.834459999999986,
+      "max": 48.0934
+    },
+    "applied_cap": {
+      "mean": 17.005723204994798,
+      "p50": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 40.0
+    },
+    "accepted": {
+      "mean": 5.079604578563996,
+      "p50": 5.0,
+      "p95": 8.0,
+      "p99": 9.0,
+      "max": 10.0
+    },
+    "update_applied_fraction": 0.9994797086368367,
+    "controller_switches": 117
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room1",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio/room1/raw/timing.csv",
+    "timing_sha256": "f9d96b4b0070f120823322d2262c1f9ef2c1460f0c41b90cdd5c8c1d8f14c39a",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 20.425315065579582,
+      "p50": 19.4589,
+      "p95": 23.354400000000002,
+      "p99": 31.144140000000007,
+      "max": 380.195
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room2",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio/room2/raw/timing.csv",
+    "timing_sha256": "e2ce3acf8c1ea009e3ec18c9cc9fe43f6a13a35e258716dad75e4de7f64f3d77",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 20.597222449687717,
+      "p50": 19.5717,
+      "p95": 23.467100000000002,
+      "p99": 31.647043000000004,
+      "max": 264.978
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room3",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio/room3/raw/timing.csv",
+    "timing_sha256": "355a61286094d9675465d27de6039a47198a21d213c67a70f9c3fd78a4e85b3c",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 20.438320099255584,
+      "p50": 19.3979,
+      "p95": 23.447400000000002,
+      "p99": 31.310760000000045,
+      "max": 185.64600000000002
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room4",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio/room4/raw/timing.csv",
+    "timing_sha256": "f2dfead045fe7de0d64fcc2cd24a005b9e60490f76a1c9c8ce73f74b0cdc3cbc",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 20.447789407540395,
+      "p50": 19.409599999999998,
+      "p95": 23.18485,
+      "p99": 31.254144000000004,
+      "max": 393.953
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room5",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio/room5/raw/timing.csv",
+    "timing_sha256": "6e3133ed6f4a1c0bc9ef2b85a563c55754daa6d9fafb1cc24089a2ba84f75c57",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 20.13064358974359,
+      "p50": 19.330099999999998,
+      "p95": 22.960339999999995,
+      "p99": 31.58645999999999,
+      "max": 212.261
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room6",
+    "arm": "eqvio",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio/room6/raw/timing.csv",
+    "timing_sha256": "0efccd793db3ce714ebad9130fea0ee0bfb40f1499b2443e47e8d52323166cc1",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 21.253542071320183,
+      "p50": 19.4675,
+      "p95": 23.419575000000002,
+      "p99": 29.603940000000012,
+      "max": 2329.98
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room1",
+    "arm": "eqvio_ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio_ours/room1/raw/timing.csv",
+    "timing_sha256": "e536beb5e39b74087852ae831fb93e7e7c30d2d26f8073b5bceb5489c56ac4f8",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 14.10884064516129,
+      "p50": 11.8531,
+      "p95": 19.5807,
+      "p99": 24.21880000000008,
+      "max": 241.29600000000002
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room2",
+    "arm": "eqvio_ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio_ours/room2/raw/timing.csv",
+    "timing_sha256": "364db73fb40b075210efe9d149fdb1e175f6c6c44f831d62d0b444fb74357db2",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 14.263233861901456,
+      "p50": 12.0038,
+      "p95": 19.654405,
+      "p99": 25.116099000000006,
+      "max": 152.357
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room3",
+    "arm": "eqvio_ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio_ours/room3/raw/timing.csv",
+    "timing_sha256": "67a31ea79345943d340b0e6d2cd42a8e9d6b6dc5c6c7e479bd86892522b0660f",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 14.036535023041475,
+      "p50": 11.7135,
+      "p95": 19.4094,
+      "p99": 23.00854000000001,
+      "max": 230.25
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room4",
+    "arm": "eqvio_ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio_ours/room4/raw/timing.csv",
+    "timing_sha256": "2ad82a0237e41c70cd51becee060c438e3402afa82b4c12bfe8db474d40ac48b",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 13.356548074506284,
+      "p50": 11.554950000000002,
+      "p95": 19.35077,
+      "p99": 24.319862000000004,
+      "max": 131.821
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room5",
+    "arm": "eqvio_ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio_ours/room5/raw/timing.csv",
+    "timing_sha256": "b3bd361999eec907c48208370f51394e9a93723bc327d9c7209aee50909b9b1b",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 13.847933821566563,
+      "p50": 11.738,
+      "p95": 19.42105,
+      "p99": 22.93628799999999,
+      "max": 232.912
+    }
+  },
+  {
+    "dataset": "tum-vi",
+    "sequence": "room6",
+    "arm": "eqvio_ours",
+    "source": "/home/ardyseto/Downloads/k230-vio/results/k230-tumvi-pgm-half/20261006_082312/eqvio_ours/room6/raw/timing.csv",
+    "timing_sha256": "e1bd318b7d95c7ca40548c38b3fc1fc5a01ccedcbba4082c4ce62c4d0338920a",
+    "scope": "offline pipeline; legacy TUM controller differs",
+    "latency_ms": {
+      "mean": 13.680069791350531,
+      "p50": 11.6323,
+      "p95": 19.338775,
+      "p99": 23.497360000000032,
+      "max": 243.171
+    }
+  }
+]

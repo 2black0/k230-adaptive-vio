@@ -1,0 +1,32 @@
+{
+  "method": "levio",
+  "sequence": "room3",
+  "profile": {
+    "sensor": "mono cam0",
+    "profile": "256x256 TUM-VI PGM",
+    "config": "build-k230-tumvi + prepare_tumvi_asl.py"
+  },
+  "binary_sha256": "1d81683502a8ecf0b372804fea3e0d3c6c18650d343c56df8624544bd5a5db53",
+  "config": [
+    {
+      "name": "estimator",
+      "argv": [
+        "/root/k230-vio-campaign/bin/levio",
+        "--data",
+        "/dev/shm/k230-vio-campaign/levio-data/20261006_082312/room3",
+        "--log-dir",
+        "/dev/shm/k230-vio-campaign/20261006_082312/levio/room3/raw"
+      ]
+    }
+  ],
+  "environment": {
+    "LD_LIBRARY_PATH": "/root/k230-vio-campaign/lib:/root/k230-native/lib:/root/k230-vio-euroc-test-20261005/lib"
+  },
+  "resolution": [
+    256,
+    256
+  ],
+  "imu_source": "/root/dataset/PGM-quarter/tumvi_room3",
+  "groundtruth_source": "/root/dataset/PGM-quarter/tumvi_room3",
+  "runtime_sec_includes_adb_pull": 138.919
+}

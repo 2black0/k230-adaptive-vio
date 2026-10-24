@@ -1,0 +1,18 @@
+{
+  "method": "larvio",
+  "sequence": "MH_02_easy",
+  "resolution": "376x240",
+  "dataset": "EuRoC-MAV PGM half",
+  "sensor": "mono cam0",
+  "exit_code": 0,
+  "elapsed_sec": 331.3469229079783,
+  "pose_count": 3007,
+  "requested_frames": null,
+  "fps_wall": 9.075080503569682,
+  "latency_wall_mean_us_per_pose": 110191.85996274636,
+  "latency_pipeline_mean_us": 98418.62828947368,
+  "latency_source": "estimator_pipeline",
+  "cpu_pct_mean": 91.06865699873897,
+  "rss_mb_peak": 56.449,
+  "resource_samples": 1586
+}

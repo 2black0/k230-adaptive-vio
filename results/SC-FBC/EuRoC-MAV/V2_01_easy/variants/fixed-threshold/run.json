@@ -1,0 +1,373 @@
+{
+  "dataset": "euroc",
+  "sequence": "v201",
+  "resolution": "half",
+  "arm": "base-policy",
+  "seed": 0,
+  "logging": true,
+  "block": "euroc-five-arm",
+  "stress": false,
+  "full_start": false,
+  "id": "euroc-five-arm/euroc/v201/base-policy/s0",
+  "expected_frames": 2280,
+  "start_offset_s": 0,
+  "input": {
+    "camera_source": "/root/dataset/PGM-half/euroc_V2_01_easy/mav0/cam0",
+    "imu_source": "/root/dataset/PGM-quarter/euroc_V2_01_easy/mav0/imu0",
+    "camera_manifest_sha256": "096bedef7f8ce5bc86d6a185bac3c42ab8bc5562887b6e73790d5aa7533c1c1f",
+    "imu_sha256": "d8df41e85c12761104043264a61054ad4bfa19087886e847f4e0412a19cd1633",
+    "calibration_sha256": "cc2c88bdbf6d54cbfa1d45eef643a6b77a3b9428128dc81c8e1ebacd300e71ad",
+    "frames": 2280,
+    "first_stamp": 1413393212.2257607,
+    "camera_median_dt_s": 0.04999995231628418
+  },
+  "campaign_binary_sha256": "821171e411529f8dd000ca9336f15617e2719adf74187352051b305dc8472c8a",
+  "config_sha256": "a0eebc3a25dcfdaa669827545af53600be3cc473c9e12d76a94088d0af32da27",
+  "command": [
+    "/root/k230-realtime-euroc-five-arm-20261013/eqvio_opt",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/input/",
+    "/root/k230-realtime-euroc-five-arm-20261013/euroc.yaml",
+    "--mode",
+    "asl",
+    "--output",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/runs/euroc-five-arm/euroc/v201/base-policy/s0",
+    "--camera",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/input/intrinsics.yaml",
+    "--timing",
+    "--limitRate",
+    "0",
+    "--pacedReplay",
+    "--seed",
+    "0",
+    "--featureDistOverride",
+    "80",
+    "--filterLog",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/runs/euroc-five-arm/euroc/v201/base-policy/s0/filterlog.csv",
+    "--adaptiveBudget",
+    "starve",
+    "--adaptiveBudgetMaxLow",
+    "5",
+    "--adaptiveBudgetMaxHigh",
+    "20",
+    "--adaptiveBudgetMeasFloor",
+    "8",
+    "--adaptiveBudgetHold",
+    "5",
+    "--adaptiveBudgetAutoFloorWindow",
+    "50",
+    "--adaptiveBudgetAutoFloorPercentile",
+    "40",
+    "--adaptiveBudgetAutoHoldWindow",
+    "50",
+    "--adaptiveBudgetAutoHoldGain",
+    "40"
+  ],
+  "board_before": "35943.63 30269.43\n7160",
+  "board_after": "36058.97 30334.42\n7167",
+  "exit_code": 0,
+  "raw_sha256": {
+    "run_config.csv": "70b8a71c2b10ba638cdd398bbb957b70970a0b8a62f43759a566644057d2e101",
+    "IMUState.csv": "3be45ab63af72a57456033da8dfd97c4b9e9221dcfc7fc0d839200e348789f7b",
+    "die_milliC_end": "d659b58c573b05cd210a4ed30cdfd44ee099242ba30ee1d5b7531d7ef17eeab1",
+    "bias.csv": "0b62c27bbf2261bdae732004610532dc11990f8b9e18a13f172b058cfb8e77aa",
+    "memory.csv": "1acd1396d07b590be3bfe9a04c69ec1c7c94201fa0cefd26ada1c7390a59737c",
+    "resource.csv": "8cb333d7cf7f1529f53d84dee47d8d8636847ef27b20002d7c110dce27ebb960",
+    "replay_epoch.txt": "b2e20c3a13f589f3dfb5e457f5b2159413358fee300aafeae534b9f752cf50aa",
+    "timing.csv": "6f05e18f6c6f703d9152c3bb42b79ffeeed7066ac52978ea577bfcee3a645115",
+    "realtime.csv": "ba3d123312f0f1b38a0064f82e9a8fb1b17b95ba0c58b97e8d6ab04bc349b10e",
+    "EXITCODE": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "uptime_end_s": "8728f77cab7036fe478f375926904ee4775864cbc9c536273675f2e5008e38a6",
+    "runner.pid": "3c6ab93ec0be2b0ca3caa3c400b982fabb5cdccef02643cf10d488884583b6ab",
+    "run.log": "fe83cf7c7ea327c96d47d5236c3cab0dd41d246239a43bb4583aac68f1d71b6a",
+    "camera.csv": "2e60e43e261614cee244ffa07d5d8b7bd5874b8424b8f8e5a8394509b7ae7824",
+    "filterlog.csv": "73e878dd1ab61c4220c872f56f9cce8983a962c9228bf8868340e819cbf6467c"
+  },
+  "evaluated_at": "2026-10-13T10:19:33.370021+00:00",
+  "processed_frames": 2280,
+  "estimator_duration_s": 113.995,
+  "stage_mean_ms": {
+    "correction": 0.5175090864035088,
+    "detect": 10.171648986842106,
+    "features": 16.930526662280702,
+    "image load": 0.3940502100877193,
+    "klt": 5.07724254868421,
+    "nn_detect": 0.0,
+    "preprocessing": 0.08639858815789474,
+    "propagate": 0.0,
+    "propagation": 0.7824628859649123,
+    "selective": 0.0,
+    "static ransac": 1.638475172368421,
+    "total": 18.743522771929825,
+    "total vision update": 1.4050256592105264,
+    "write output": 0.751226800877193
+  },
+  "detector_call_fraction": 0.837280701754386,
+  "filterlog_rows": 2280,
+  "controller": {
+    "switches": 132,
+    "starvation_fraction": 0.5640350877192982,
+    "floor": {
+      "mean": 8.0,
+      "p50": 8.0,
+      "p95": 8.0,
+      "p99": 8.0,
+      "max": 8.0
+    },
+    "hold": {
+      "mean": 5.0,
+      "p50": 5.0,
+      "p95": 5.0,
+      "p99": 5.0,
+      "max": 5.0
+    }
+  },
+  "accepted_observations": {
+    "mean": 7.176754385964912,
+    "p50": 7.0,
+    "p95": 9.0,
+    "p99": 10.0,
+    "max": 11.0
+  },
+  "applied_update_fraction": 1,
+  "memory_rows": [
+    {
+      "frame": "0",
+      "rss_kib": "12160",
+      "peak_kib": "12160"
+    },
+    {
+      "frame": "1",
+      "rss_kib": "13572",
+      "peak_kib": "14976"
+    },
+    {
+      "frame": "100",
+      "rss_kib": "13740",
+      "peak_kib": "15848"
+    },
+    {
+      "frame": "200",
+      "rss_kib": "14652",
+      "peak_kib": "16156"
+    },
+    {
+      "frame": "300",
+      "rss_kib": "14368",
+      "peak_kib": "16288"
+    },
+    {
+      "frame": "400",
+      "rss_kib": "14584",
+      "peak_kib": "16544"
+    },
+    {
+      "frame": "500",
+      "rss_kib": "14588",
+      "peak_kib": "16548"
+    },
+    {
+      "frame": "600",
+      "rss_kib": "14868",
+      "peak_kib": "16836"
+    },
+    {
+      "frame": "700",
+      "rss_kib": "14892",
+      "peak_kib": "16836"
+    },
+    {
+      "frame": "800",
+      "rss_kib": "15056",
+      "peak_kib": "16976"
+    },
+    {
+      "frame": "900",
+      "rss_kib": "15260",
+      "peak_kib": "17180"
+    },
+    {
+      "frame": "1000",
+      "rss_kib": "15320",
+      "peak_kib": "17236"
+    },
+    {
+      "frame": "1100",
+      "rss_kib": "17632",
+      "peak_kib": "17632"
+    },
+    {
+      "frame": "1200",
+      "rss_kib": "17632",
+      "peak_kib": "17632"
+    },
+    {
+      "frame": "1300",
+      "rss_kib": "17632",
+      "peak_kib": "17632"
+    },
+    {
+      "frame": "1400",
+      "rss_kib": "17760",
+      "peak_kib": "17760"
+    },
+    {
+      "frame": "1500",
+      "rss_kib": "18272",
+      "peak_kib": "18272"
+    },
+    {
+      "frame": "1600",
+      "rss_kib": "18272",
+      "peak_kib": "18272"
+    },
+    {
+      "frame": "1700",
+      "rss_kib": "18272",
+      "peak_kib": "18272"
+    },
+    {
+      "frame": "1800",
+      "rss_kib": "18272",
+      "peak_kib": "18272"
+    },
+    {
+      "frame": "1900",
+      "rss_kib": "18272",
+      "peak_kib": "18272"
+    },
+    {
+      "frame": "2000",
+      "rss_kib": "19040",
+      "peak_kib": "19040"
+    },
+    {
+      "frame": "2100",
+      "rss_kib": "19424",
+      "peak_kib": "19424"
+    },
+    {
+      "frame": "2200",
+      "rss_kib": "19424",
+      "peak_kib": "19424"
+    },
+    {
+      "frame": "2280",
+      "rss_kib": "19424",
+      "peak_kib": "19424"
+    }
+  ],
+  "process_peak_rss_mib": 18.96875,
+  "timing_rows": 2280,
+  "pipeline_latency_ms": {
+    "mean": 18.743522771929825,
+    "p50": 19.085050000000003,
+    "p95": 31.13750999999998,
+    "p99": 42.54699300000001,
+    "max": 55.3999
+  },
+  "offline_pipeline_over_50ms_fraction": 0.0004385964912280702,
+  "cpu_pct": {
+    "mean": 38.06957142857143,
+    "p50": 39.254999999999995,
+    "p95": 46.3715,
+    "p99": 48.15,
+    "max": 50.98
+  },
+  "sampled_rss_mib": {
+    "mean": 16.64010476190476,
+    "p50": 17.219,
+    "p95": 18.969,
+    "p99": 18.969,
+    "max": 18.969
+  },
+  "complete_input": true,
+  "accuracy": {
+    "ate_rmse_m": 0.15131851691762346,
+    "rpe_rmse_m": 0.004289406205694368,
+    "association_tolerance_s": 0.01,
+    "associated_poses": 2240,
+    "estimated_poses": 2280,
+    "association_max_difference_s": 2.384185791015625e-07,
+    "converged": true,
+    "rotation": [
+      [
+        0.9992305393237894,
+        -0.03733662953870571,
+        -0.012012717318688072
+      ],
+      [
+        0.03758461070187917,
+        0.9990701131924892,
+        0.02112595474615742
+      ],
+      [
+        0.011212774905322315,
+        -0.021561192458627466,
+        0.9997046507137416
+      ]
+    ],
+    "translation": [
+      -0.9201532482980239,
+      0.4819071369280489,
+      1.3068704384335836
+    ],
+    "scale": 1.0
+  },
+  "rpe_1s_individual": {
+    "rpe_rmse_m": 0.04453809797935324,
+    "maximum_error_m": 0.22133215139050585,
+    "common_windows": 1111,
+    "horizon_s": 1.0,
+    "grid_step_s": 0.1,
+    "gt_time_origin_s": 1413393213.4807606
+  },
+  "trajectory_sha256": "2ae98028251e789fc058306aff012a0bd6bb56df4a5b8f0ac283810f58260dba",
+  "verdict": "ok",
+  "paced_estimator_fps": 20.00087723145752,
+  "realtime": {
+    "frames": 2280,
+    "arrival_to_output_ms": {
+      "mean": 19.72458415636127,
+      "p50": 19.887821003237605,
+      "p95": 32.86068881346134,
+      "p99": 45.43988567421593,
+      "max": 57.20665802880731
+    },
+    "processing_ms": {
+      "mean": 19.60754409429829,
+      "p50": 19.820518500001327,
+      "p95": 32.75052934999911,
+      "p99": 44.45883923000075,
+      "max": 56.49340699999783
+    },
+    "dispatch_lateness_ms": {
+      "mean": 0.11704006206297572,
+      "p50": 0.06496866137517543,
+      "p95": 0.12406119347581068,
+      "p99": 1.66666396779661,
+      "max": 7.83694929394585
+    },
+    "deadline_ms": 50,
+    "deadline_miss_fraction": 0.002631578947368421,
+    "pending_camera_at_dispatch": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 0.0
+    },
+    "pending_camera_at_output": {
+      "mean": 0.002631578947368421,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 1.0
+    },
+    "camera_median_dt_s": 0.04999995231628418,
+    "final_output_lag_ms": 9.808097926509163,
+    "backlog_slope_frames_per_s": 0.0,
+    "expected_input_frames": 2280,
+    "unprocessed_input_frames": 0,
+    "policy": "lossless timestamp-scheduled replay; pending cameras inferred from schedule; no live capture"
+  }
+}

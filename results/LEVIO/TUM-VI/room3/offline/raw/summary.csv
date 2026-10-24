@@ -1,0 +1,15 @@
+metric,value
+sequence,room3
+mode,fast
+frames,2821
+frames_dropped,0
+keyframes,2495
+wall_time_s,138.744
+throughput_fps,20.332
+fps_mean,22.649
+fps_p95,34.543
+latency_mean_us,49101.7
+latency_p95_us,75742.9
+cpu_pct_mean,97.90
+rss_peak_mb,2.500
+alloc_peak_bytes,2017928

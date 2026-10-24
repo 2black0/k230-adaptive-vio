@@ -1,0 +1,78 @@
+GIFT:
+  equaliseImageHistogram: true
+  useFastFeatures: false
+  featureDist: 35.0
+  featureSearchThreshold: 0.8
+  maxError: 80.0
+  maxFeatures: 50
+  maxLevel: 3
+  minHarrisQuality: 0.03
+  ransacParams:
+    inlierThreshold: 0.0025
+    maxIterations: 34
+    minDataPoints: 5
+    minInliers: 12
+  trackedFeatureDist: 15.0
+  winSize: 21
+eqf:
+  initialValue:
+    sceneDepth: 5.00028218320243
+  initialVariance:
+    attitude: 0.13565029126052572
+    biasAcc: 1.5813333765300104
+    biasGyr: 97162.79515771076
+    cameraAttitude: 0.0010228558965517584
+    cameraPosition: 0.023501400846134893
+    point: 129.90415638150924
+    position: 0.1
+    velocity: 8.974852995731e-08
+  measurementNoise:
+    feature: 1.9297839969591413
+    featureOutlierAbs: 4.852186665580312
+    featureOutlierProb: 0.03229809583062128
+    featureRetention: 0.18594708334486176
+  processVariance:
+    attitude: 6.025875320811407e-05
+    biasAcc: 0.0
+    biasGyr: 0.0
+    cameraAttitude: 5.075382174045239e-06
+    cameraPosition: 1.2188313140115635e-05
+    point: 0.00029845436136043135
+    position: 9.981466095928483e-06
+    velocity: 0.025317333863551263
+  settings:
+    coordinateChoice: InvDepth
+    fastRiccati: true
+    useDiscreteInnovationLift: false
+    useDiscreteVelocityLift: true
+    useEquivariantOutput: true
+    useFeaturePredictions: false
+    useInnovationLift: true
+    useMedianDepth: false
+  velocityNoise:
+    acc: 0.012438843268295521
+    accBias: 0.004462289865453429
+    gyr: 0.000243153572917808
+    gyrBias: 0.00013372703521098622
+main:
+  limitRate: 0.0
+  startTime: 0.0
+  writeState: true
+  cameraLag: 0.00
+
+
+sim:
+  cameraOffset:
+  - xw
+  - 0.04557484
+  - -0.0711618
+  - -0.04468125
+  - 0.007688508870214049
+  - -0.013355443863352768
+  - -0.6947965225796005
+  - 0.7190412444094291
+  fieldOfView: 60
+  maxFeatures: 40
+  numPoints: 5000
+  randomSeed: 0
+  wallDistance: 1.0

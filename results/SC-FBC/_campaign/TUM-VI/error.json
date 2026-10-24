@@ -1,0 +1,4 @@
+{
+  "error": "TimeoutExpired(['adb', 'shell', 'cat /proc/uptime; cat /sys/class/thermal/thermal_zone0/temp; _ev_rc=$?; echo __EV_RC:$_ev_rc'], 60)",
+  "time": 1791871939.1651204
+}

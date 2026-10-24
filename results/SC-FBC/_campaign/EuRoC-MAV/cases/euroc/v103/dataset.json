@@ -1,0 +1,10 @@
+{
+  "camera_source": "/root/dataset/PGM-half/euroc_V1_03_difficult/mav0/cam0",
+  "imu_source": "/root/dataset/PGM-quarter/euroc_V1_03_difficult/mav0/imu0",
+  "camera_manifest_sha256": "e5e545eeec60ab77da68d5f591a1635f3432120a0a7eb51abb86db870344663a",
+  "imu_sha256": "543835f7b7dd9d1287c9052955e030ade113c51dc97ec2c15d13a318521ad0d7",
+  "calibration_sha256": "adf1524da1a9f959cadf8f53b74ba0df649bef8a6a7de4283ee12b248a4f921f",
+  "frames": 2149,
+  "first_stamp": 1403715886.544058,
+  "camera_median_dt_s": 0.04999995231628418
+}

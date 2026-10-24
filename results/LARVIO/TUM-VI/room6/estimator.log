@@ -1,0 +1,382 @@
+
+===========================================
+using FEJ...
+estimating td... initial td = 0
+estimating extrinsic...
+not calibrating imu instrinsic online...
+Hybrid MSCKF...Maximum number of feature in state is 30
+features augmented into state will use 1d idp
+===========================================
+
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W19700102 00:29:08.947004  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:08.953718  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:08.955998  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:08.958247  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:08.973606  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:08.975798  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:08.978063  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:08.993170  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:08.995368  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:09.001952  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:09.004232  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:09.019690  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:09.024330  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:09.026623  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:09.041688  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+W19700102 00:29:09.048218  9282 levenberg_marquardt_strategy.cc:123] Linear solver failure. Failed to compute a step: Eigen failure. Unable to perform dense Cholesky factorization.
+Images from now on will be utilized...
+
+Dynamic initialization success !
+
+delta velocity: 0.154284
+delta position: 1.044989
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.799862
+delta position: 6.406211
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.040354
+delta position: 8.477536
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.259476
+delta position: 10.138507
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.946119
+delta position: 7.737815
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.308914
+delta position: 2.524576
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.158016
+delta position: 1.276861
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.231981
+delta position: 2.065575
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.156932
+delta position: 1.224337
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.174280
+delta position: 1.370934
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.272886
+delta position: 3.121780
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.163643
+delta position: 2.437539
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.455351
+delta position: 7.265240
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.153228
+delta position: 2.024535
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 5.783780
+delta position: 82.539746
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.458436
+delta position: 27.850991
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 6.679842
+delta position: 117.814642
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.076452
+delta position: 1.274507
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.104054
+delta position: 1.830366
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.229883
+delta position: 4.031188
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.152945
+delta position: 2.695351
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.179848
+delta position: 3.251115
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.067333
+delta position: 1.167257
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.100254
+delta position: 2.084719
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 5.229311
+delta position: 107.198842
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.062216
+delta position: 1.300102
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.051006
+delta position: 1.034582
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.566896
+delta position: 31.034786
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.084953
+delta position: 1.803621
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.070902
+delta position: 1.709709
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.049870
+delta position: 1.050022
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.214020
+delta position: 4.929004
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.056534
+delta position: 1.324296
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.062310
+delta position: 1.629091
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.043575
+delta position: 1.072228
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.051481
+delta position: 1.154856
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.087358
+delta position: 2.128982
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.057436
+delta position: 1.441802
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.054026
+delta position: 1.221463
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.040135
+delta position: 1.288869
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.043893
+delta position: 1.062543
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.100335
+delta position: 2.434298
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.045927
+delta position: 1.350702
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.092520
+delta position: 2.430982
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.223578
+delta position: 5.476341
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.379014
+delta position: 9.407010
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.101628
+delta position: 3.190290
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.123541
+delta position: 3.211093
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.094271
+delta position: 2.622742
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.211273
+delta position: 6.096630
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.038666
+delta position: 1.044956
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.989877
+delta position: 26.475142
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.135051
+delta position: 3.538949
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.151565
+delta position: 4.305426
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.210774
+delta position: 6.577447
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.272480
+delta position: 7.958667
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.038364
+delta position: 1.069961
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.497274
+delta position: 15.117094
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 5.645347
+delta position: 167.074285
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.104852
+delta position: 3.153979
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.275204
+delta position: 8.143787
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.375648
+delta position: 11.346356
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.069809
+delta position: 2.089971
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.227278
+delta position: 7.064652
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.033278
+delta position: 1.033401
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.353097
+delta position: 11.229671
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.049277
+delta position: 2.391800
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.056740
+delta position: 1.808552
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.055983
+delta position: 1.911947
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.045623
+delta position: 1.052009
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.327354
+delta position: 11.312861
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.351464
+delta position: 12.157935
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.128017
+delta position: 4.515147
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.265531
+delta position: 44.212628
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.052662
+delta position: 1.892316
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.094035
+delta position: 3.770166
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.034798
+delta position: 1.280091
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.282479
+delta position: 10.170111
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.023775
+delta position: 1.316068
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.090444
+delta position: 3.236948
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.032748
+delta position: 1.440605
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.021251
+delta position: 1.104875
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.029313
+delta position: 1.098611
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.051978
+delta position: 1.840538
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.043023
+delta position: 1.880870
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.027123
+delta position: 1.217410
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.032679
+delta position: 1.287225
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.046288
+delta position: 1.778957
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.044167
+delta position: 1.827769
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.345124
+delta position: 13.978774
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked !delta velocity: 0.044594
+delta position: 1.866213
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.158902
+delta position: 6.586900
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.143728
+delta position: 5.380486
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.209682
+delta position: 11.236203
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.146308
+delta position: 6.461511
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.077695
+delta position: 3.638878
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.057575
+delta position: 2.680111
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.083939
+delta position: 3.792368
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.040402
+delta position: 1.411751
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.298496
+delta position: 17.745810
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.032804
+delta position: 1.919656
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.029057
+delta position: 1.750133
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.104014
+delta position: 5.646761
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.024136
+delta position: 1.660639
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.260850
+delta position: 1.843224
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.260834
+delta position: 13.794659
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.081753
+delta position: 5.357654
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.035979
+delta position: 2.257703
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.084511
+delta position: 4.971399
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.228134
+delta position: 15.038923
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.517262
+delta position: 32.478315
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.029271
+delta position: 2.372627
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.036711
+delta position: 2.210576
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.330379
+delta position: 48.754082
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 2.849786
+delta position: 140.573764
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 28.856242
+delta position: 1855.077820
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.097470
+delta position: 5.830862
+in measurementUpdate_hybrid: Update change is too large.

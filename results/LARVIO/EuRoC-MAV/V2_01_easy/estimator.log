@@ -1,0 +1,26 @@
+
+===========================================
+using FEJ...
+estimating td... initial td = 0
+estimating extrinsic...
+not calibrating imu instrinsic online...
+Hybrid MSCKF...Maximum number of feature in state is 30
+features augmented into state will use 1d idp
+===========================================
+
+Images from now on will be utilized...
+
+Inclinometer-initializer completed by using 191 imu data !!!
+
+delta velocity: 0.584637
+delta position: 1.707542
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.743963
+delta position: 3.318426
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.329436
+delta position: 1.235871
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.420841
+delta position: 1.276661
+in measurementUpdate_hybrid: Update change is too large.

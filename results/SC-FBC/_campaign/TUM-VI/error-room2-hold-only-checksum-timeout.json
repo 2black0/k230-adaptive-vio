@@ -1,0 +1,4 @@
+{
+  "error": "TimeoutExpired(['adb', 'shell', 'cd /tmp/k230-realtime-tumvi-five-arm-20261013/runs/tumvi-five-arm/tum-vi/room2/hold-only/s0 && sha256sum *; _ev_rc=$?; echo __EV_RC:$_ev_rc'], 120)",
+  "time": 1791871175.1184766
+}

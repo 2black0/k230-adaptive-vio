@@ -1,0 +1,17 @@
+{
+  "dataset": "V2_01_easy",
+  "num_frames_total": 2280,
+  "num_frames_processed": 2260,
+  "exec_time_s": 202.778995,
+  "fps_avg": 11.243768,
+  "ate_rmse_m": null,
+  "tsr_pct": 99.122807,
+  "timing_us": {
+    "frame_interval": { "mean": 88953.227293, "min": 53495.000000, "max": 856626.000000 },
+    "pipeline_latency": { "mean": 80534.844737, "min": 43398.000000, "max": 224617.000000 }
+  },
+  "metrics": {
+    "throughput": { "value": 11.243768, "unit": "fps" },
+    "tsr": { "value": 99.122807, "unit": "%" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "camera_source": "/root/dataset/PGM-half/tumvi_room1/mav0/cam0",
+  "imu_source": "/root/dataset/PGM-quarter/tumvi_room1/mav0/imu0",
+  "camera_manifest_sha256": "6813f5d220942b6cd0dae776e45e68b92a0097a8961f1786428576af3beeaa45",
+  "imu_sha256": "8cd471ca2c1425260534228fbe0f3e27bd6711199dfce7c971447cdf184569e2",
+  "calibration_sha256": "323364d1e281332cf681ff193cdceae138e7e03525ecd5f5260350918972348a",
+  "frames": 2821,
+  "first_stamp": 1520530308.1819017,
+  "camera_median_dt_s": 0.05000185966491699
+}

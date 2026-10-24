@@ -1,0 +1,232 @@
+
+===========================================
+using FEJ...
+estimating td... initial td = 0
+estimating extrinsic...
+not calibrating imu instrinsic online...
+Hybrid MSCKF...Maximum number of feature in state is 30
+features augmented into state will use 1d idp
+===========================================
+
+Images from now on will be utilized...
+
+Dynamic initialization success !
+
+delta velocity: 0.276603
+delta position: 1.252080
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.277724
+delta position: 1.564260
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.374259
+delta position: 3.271856
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.470807
+delta position: 4.178208
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.079152
+delta position: 1.048304
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.344561
+delta position: 4.256860
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.260241
+delta position: 3.459595
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.127726
+delta position: 1.772436
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.079751
+delta position: 1.008612
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.076903
+delta position: 1.190430
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.281237
+delta position: 4.731208
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.935106
+delta position: 20.119699
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.511597
+delta position: 11.162818
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.121000
+delta position: 2.719571
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.180671
+delta position: 4.148922
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.292680
+delta position: 7.262272
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.040499
+delta position: 1.010769
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.163503
+delta position: 4.141482
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.303502
+delta position: 33.418338
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.041365
+delta position: 1.213230
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.160954
+delta position: 4.619988
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.235561
+delta position: 7.035996
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.678702
+delta position: 48.122510
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.064738
+delta position: 2.156773
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.190255
+delta position: 6.223439
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.040269
+delta position: 1.315010
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.134054
+delta position: 4.300753
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.609300
+delta position: 20.552095
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.820041
+delta position: 28.230780
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.362758
+delta position: 12.772516
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.064770
+delta position: 2.183842
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.160998
+delta position: 5.970762
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.045753
+delta position: 1.706582
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.263509
+delta position: 10.496373
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.139930
+delta position: 4.727699
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.038236
+delta position: 1.473462
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.033171
+delta position: 1.502585
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.059269
+delta position: 2.236110
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.101459
+delta position: 3.661304
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.038648
+delta position: 42.384806
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.267164
+delta position: 11.148414
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.217538
+delta position: 8.781930
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.048863
+delta position: 2.072470
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.262215
+delta position: 11.097483
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.027870
+delta position: 43.141841
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.023361
+delta position: 46.427679
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.047351
+delta position: 2.324307
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.201571
+delta position: 9.084494
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 1.279489
+delta position: 56.948410
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.260040
+delta position: 10.507413
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.110744
+delta position: 4.914081
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.147483
+delta position: 7.107114
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 2.338770
+delta position: 114.945105
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.836750
+delta position: 43.771288
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.661578
+delta position: 33.755811
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.037603
+delta position: 2.144235
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.028145
+delta position: 1.672955
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.032278
+delta position: 1.763132
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.023893
+delta position: 1.161933
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.039545
+delta position: 2.274506
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.134899
+delta position: 7.156823
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.038289
+delta position: 2.174063
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.111449
+delta position: 6.749629
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.020971
+delta position: 1.296849
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked !No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !

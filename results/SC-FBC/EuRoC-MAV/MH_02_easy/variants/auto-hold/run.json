@@ -1,0 +1,414 @@
+{
+  "dataset": "euroc",
+  "sequence": "mh02",
+  "resolution": "half",
+  "arm": "hold-only",
+  "seed": 0,
+  "logging": true,
+  "block": "euroc-five-arm",
+  "stress": false,
+  "full_start": false,
+  "id": "euroc-five-arm/euroc/mh02/hold-only/s0",
+  "expected_frames": 3040,
+  "start_offset_s": 0,
+  "input": {
+    "camera_source": "/root/dataset/PGM-half/euroc_MH_02_easy/mav0/cam0",
+    "imu_source": "/root/dataset/PGM-quarter/euroc_MH_02_easy/mav0/imu0",
+    "camera_manifest_sha256": "e1bd0211e847ca47f5d7a63cc21e1bd9882c14cd12ed38637d000eae39ffca9e",
+    "imu_sha256": "7add4feaa342c6b6874996058b6b5679d908eca25b7e063eae46fec49558cc8e",
+    "calibration_sha256": "0f2d726818d3e3a5409600f629be984e75e4df2f90008953d11961b1981fd598",
+    "frames": 3040,
+    "first_stamp": 1403636858.6316664,
+    "camera_median_dt_s": 0.04999995231628418
+  },
+  "campaign_binary_sha256": "821171e411529f8dd000ca9336f15617e2719adf74187352051b305dc8472c8a",
+  "config_sha256": "a0eebc3a25dcfdaa669827545af53600be3cc473c9e12d76a94088d0af32da27",
+  "command": [
+    "/root/k230-realtime-euroc-five-arm-20261013/eqvio_opt",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/input/",
+    "/root/k230-realtime-euroc-five-arm-20261013/euroc.yaml",
+    "--mode",
+    "asl",
+    "--output",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/runs/euroc-five-arm/euroc/mh02/hold-only/s0",
+    "--camera",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/input/intrinsics.yaml",
+    "--timing",
+    "--limitRate",
+    "0",
+    "--pacedReplay",
+    "--seed",
+    "0",
+    "--featureDistOverride",
+    "80",
+    "--filterLog",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/runs/euroc-five-arm/euroc/mh02/hold-only/s0/filterlog.csv",
+    "--adaptiveBudget",
+    "starve",
+    "--adaptiveBudgetMaxLow",
+    "5",
+    "--adaptiveBudgetMaxHigh",
+    "20",
+    "--adaptiveBudgetMeasFloor",
+    "8",
+    "--adaptiveBudgetHold",
+    "5",
+    "--adaptiveBudgetAutoFloorWindow",
+    "50",
+    "--adaptiveBudgetAutoFloorPercentile",
+    "40",
+    "--adaptiveBudgetAutoHoldWindow",
+    "50",
+    "--adaptiveBudgetAutoHoldGain",
+    "40",
+    "--adaptiveBudgetAutoHold"
+  ],
+  "board_before": "30075.45 26306.44\n7157",
+  "board_after": "30230.30 26396.11\n7157",
+  "exit_code": 0,
+  "raw_sha256": {
+    "run_config.csv": "70b8a71c2b10ba638cdd398bbb957b70970a0b8a62f43759a566644057d2e101",
+    "IMUState.csv": "323d60df6cbb6d262909377522dc2ec80b07b439b09e3105e4baf3c719f3e540",
+    "die_milliC_end": "12db18b5dbd3120074a8105f53b6e573f47c18e3eec7e61290dd72e0d4f8c226",
+    "bias.csv": "d58ed2bad6e8a29b992a0abc78d85e066737eb00d40118f5d6be675d23738631",
+    "memory.csv": "310ba314d3b8d09529eb7ed7b9ea5efba1369b2b0d11c337c777a95b24a45073",
+    "resource.csv": "592b1a2ef05c3caaa7806dc08d25d5778d9e7674007a0b532b74930be4c98bc1",
+    "replay_epoch.txt": "d9ba93601fe42d00233b09f5a59f5f9743ed326273ab4003796b22e5c8f6348f",
+    "timing.csv": "6516ee037e18bab4a79f54fc87b86023f8014dcb56dadabfd348ed19651d74f7",
+    "realtime.csv": "e2002c9ead6543deee11a3902b19d4cf63e3a7e7bbfee0dd2e69d1c53aefc170",
+    "EXITCODE": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "uptime_end_s": "e40930a07c4a8fe5e7e7645bf292516af04aea0f57d186b03a1019cbc21d6569",
+    "runner.pid": "e1f771e3a7b7117e0197a06cdbd5ea7942e64aea3e7af965eff82f4643722034",
+    "run.log": "d64f7df47ec7020e77acf961f08567d1d39f4655e3e9a5ef6f1353af693685c0",
+    "camera.csv": "c6bb5100cba183c79702dba223877e97618b9fea0963f01c918c4ee0cf2c708d",
+    "filterlog.csv": "ec70029a382cc40eb87ab7b72c80b31e29e528453a4ec68816409f52aec18707"
+  },
+  "evaluated_at": "2026-10-13T08:42:24.976400+00:00",
+  "processed_frames": 3040,
+  "estimator_duration_s": 151.995,
+  "stage_mean_ms": {
+    "correction": 0.5546979220394737,
+    "detect": 8.961200657894738,
+    "features": 16.06780717763158,
+    "image load": 0.4110249049342105,
+    "klt": 5.036675514144737,
+    "nn_detect": 0.0,
+    "preprocessing": 0.08310018815789473,
+    "propagate": 0.0,
+    "propagation": 0.8451196210526316,
+    "selective": 0.0,
+    "static ransac": 2.024926188486842,
+    "total": 17.992252858552632,
+    "total vision update": 1.4994809782894736,
+    "write output": 0.7747061901315789
+  },
+  "detector_call_fraction": 0.7338815789473684,
+  "filterlog_rows": 3040,
+  "controller": {
+    "switches": 175,
+    "starvation_fraction": 0.425,
+    "floor": {
+      "mean": 8.0,
+      "p50": 8.0,
+      "p95": 8.0,
+      "p99": 8.0,
+      "max": 8.0
+    },
+    "hold": {
+      "mean": 7.331578947368421,
+      "p50": 7.0,
+      "p95": 10.0,
+      "p99": 11.0,
+      "max": 45.0
+    }
+  },
+  "accepted_observations": {
+    "mean": 7.495394736842106,
+    "p50": 8.0,
+    "p95": 10.0,
+    "p99": 11.0,
+    "max": 12.0
+  },
+  "applied_update_fraction": 1,
+  "memory_rows": [
+    {
+      "frame": "0",
+      "rss_kib": "12672",
+      "peak_kib": "12672"
+    },
+    {
+      "frame": "1",
+      "rss_kib": "14084",
+      "peak_kib": "15488"
+    },
+    {
+      "frame": "100",
+      "rss_kib": "14808",
+      "peak_kib": "16852"
+    },
+    {
+      "frame": "200",
+      "rss_kib": "14992",
+      "peak_kib": "16952"
+    },
+    {
+      "frame": "300",
+      "rss_kib": "15272",
+      "peak_kib": "17192"
+    },
+    {
+      "frame": "400",
+      "rss_kib": "15400",
+      "peak_kib": "17320"
+    },
+    {
+      "frame": "500",
+      "rss_kib": "15400",
+      "peak_kib": "17320"
+    },
+    {
+      "frame": "600",
+      "rss_kib": "15528",
+      "peak_kib": "17448"
+    },
+    {
+      "frame": "700",
+      "rss_kib": "15676",
+      "peak_kib": "17596"
+    },
+    {
+      "frame": "800",
+      "rss_kib": "15844",
+      "peak_kib": "17764"
+    },
+    {
+      "frame": "900",
+      "rss_kib": "16300",
+      "peak_kib": "17960"
+    },
+    {
+      "frame": "1000",
+      "rss_kib": "16108",
+      "peak_kib": "18028"
+    },
+    {
+      "frame": "1100",
+      "rss_kib": "16176",
+      "peak_kib": "18092"
+    },
+    {
+      "frame": "1200",
+      "rss_kib": "18356",
+      "peak_kib": "18356"
+    },
+    {
+      "frame": "1300",
+      "rss_kib": "18356",
+      "peak_kib": "18356"
+    },
+    {
+      "frame": "1400",
+      "rss_kib": "18564",
+      "peak_kib": "18740"
+    },
+    {
+      "frame": "1500",
+      "rss_kib": "18608",
+      "peak_kib": "18948"
+    },
+    {
+      "frame": "1600",
+      "rss_kib": "18736",
+      "peak_kib": "18948"
+    },
+    {
+      "frame": "1700",
+      "rss_kib": "19248",
+      "peak_kib": "19248"
+    },
+    {
+      "frame": "1800",
+      "rss_kib": "19248",
+      "peak_kib": "19248"
+    },
+    {
+      "frame": "1900",
+      "rss_kib": "19248",
+      "peak_kib": "19248"
+    },
+    {
+      "frame": "2000",
+      "rss_kib": "19248",
+      "peak_kib": "19248"
+    },
+    {
+      "frame": "2100",
+      "rss_kib": "20016",
+      "peak_kib": "20016"
+    },
+    {
+      "frame": "2200",
+      "rss_kib": "20016",
+      "peak_kib": "20016"
+    },
+    {
+      "frame": "2300",
+      "rss_kib": "20016",
+      "peak_kib": "20016"
+    },
+    {
+      "frame": "2400",
+      "rss_kib": "20016",
+      "peak_kib": "20016"
+    },
+    {
+      "frame": "2500",
+      "rss_kib": "20144",
+      "peak_kib": "20144"
+    },
+    {
+      "frame": "2600",
+      "rss_kib": "20784",
+      "peak_kib": "20784"
+    },
+    {
+      "frame": "2700",
+      "rss_kib": "20784",
+      "peak_kib": "20784"
+    },
+    {
+      "frame": "2800",
+      "rss_kib": "20784",
+      "peak_kib": "20784"
+    },
+    {
+      "frame": "2900",
+      "rss_kib": "20784",
+      "peak_kib": "20784"
+    },
+    {
+      "frame": "3000",
+      "rss_kib": "21168",
+      "peak_kib": "21168"
+    },
+    {
+      "frame": "3040",
+      "rss_kib": "21168",
+      "peak_kib": "21168"
+    }
+  ],
+  "process_peak_rss_mib": 20.671875,
+  "timing_rows": 3040,
+  "pipeline_latency_ms": {
+    "mean": 17.992252858552632,
+    "p50": 19.03395,
+    "p95": 27.987389999999937,
+    "p99": 41.492140000000006,
+    "max": 55.190200000000004
+  },
+  "offline_pipeline_over_50ms_fraction": 0.0003289473684210526,
+  "cpu_pct": {
+    "mean": 36.76487544483986,
+    "p50": 37.74,
+    "p95": 48.15,
+    "p99": 50.92399999999999,
+    "max": 51.85
+  },
+  "sampled_rss_mib": {
+    "mean": 17.93837722419929,
+    "p50": 18.297,
+    "p95": 20.297,
+    "p99": 20.672,
+    "max": 20.672
+  },
+  "complete_input": true,
+  "accuracy": {
+    "ate_rmse_m": 0.4116879751243945,
+    "rpe_rmse_m": 0.00737861114512504,
+    "association_tolerance_s": 0.01,
+    "associated_poses": 3000,
+    "estimated_poses": 3040,
+    "association_max_difference_s": 0.005000114440917969,
+    "converged": true,
+    "rotation": [
+      [
+        0.9821319776162082,
+        0.18695367789584091,
+        0.021566197274769907
+      ],
+      [
+        -0.1873060503097476,
+        0.9821767912770396,
+        0.015658677916770683
+      ],
+      [
+        -0.018254371011854693,
+        -0.019418367540991546,
+        0.9996447893832111
+      ]
+    ],
+    "translation": [
+      4.432429764764041,
+      -2.534407555375883,
+      0.9160753379621376
+    ],
+    "scale": 1.0
+  },
+  "rpe_1s_individual": {
+    "rpe_rmse_m": 0.07355295492838299,
+    "maximum_error_m": 0.3636135704803961,
+    "common_windows": 1490,
+    "horizon_s": 1.0,
+    "grid_step_s": 0.1,
+    "gt_time_origin_s": 1403636859.5366664
+  },
+  "trajectory_sha256": "04dce987cf32bc33c85c68a460779d9220ca766abb6cc53095d865c4687f0864",
+  "verdict": "ok",
+  "paced_estimator_fps": 20.000657916378827,
+  "realtime": {
+    "frames": 3040,
+    "arrival_to_output_ms": {
+      "mean": 18.995063530809848,
+      "p50": 19.883567022334958,
+      "p95": 30.25547214116953,
+      "p99": 44.175044238988775,
+      "max": 58.51872502233846
+    },
+    "processing_ms": {
+      "mean": 18.884236667763084,
+      "p50": 19.81192550000399,
+      "p95": 29.596018649995315,
+      "p99": 43.7018758800086,
+      "max": 56.28270400000002
+    },
+    "dispatch_lateness_ms": {
+      "mean": 0.11082686304676138,
+      "p50": 0.06395347119081407,
+      "p95": 0.1155436209337779,
+      "p99": 2.13454591348646,
+      "max": 9.087512706054568
+    },
+    "deadline_ms": 50,
+    "deadline_miss_fraction": 0.001644736842105263,
+    "pending_camera_at_dispatch": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 0.0
+    },
+    "pending_camera_at_output": {
+      "mean": 0.001644736842105263,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 1.0
+    },
+    "camera_median_dt_s": 0.04999995231628418,
+    "final_output_lag_ms": 16.561568971184215,
+    "backlog_slope_frames_per_s": 0.0,
+    "expected_input_frames": 3040,
+    "unprocessed_input_frames": 0,
+    "policy": "lossless timestamp-scheduled replay; pending cameras inferred from schedule; no live capture"
+  }
+}

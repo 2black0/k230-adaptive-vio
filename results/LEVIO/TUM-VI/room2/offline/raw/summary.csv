@@ -1,0 +1,15 @@
+metric,value
+sequence,room2
+mode,fast
+frames,2882
+frames_dropped,0
+keyframes,2230
+wall_time_s,144.343
+throughput_fps,19.966
+fps_mean,22.524
+fps_p95,43.014
+latency_mean_us,50001.6
+latency_p95_us,75844.4
+cpu_pct_mean,97.89
+rss_peak_mb,2.500
+alloc_peak_bytes,2017928

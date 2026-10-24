@@ -1,0 +1,17 @@
+{
+  "method": "levio",
+  "dataset": "euroc",
+  "sequence": "MH03",
+  "resolution": "half",
+  "target": "board",
+  "mode": "paced",
+  "start": 0,
+  "stop": 0,
+  "seed": "0x12345678",
+  "binary": "/home/ardyseto/Downloads/k230-vio/k230-levio/build-k230-euroc_half-serial/levio_replay",
+  "binary_sha256": "cc57b9023b904937e50abf854afda2c95b1c79f65e5da74b95c8d6c9c1bd1994",
+  "git_commit": "d6bfcbd",
+  "exit_code": 0,
+  "verdict": "ok",
+  "finished": "2026-10-14T18:41:59"
+}

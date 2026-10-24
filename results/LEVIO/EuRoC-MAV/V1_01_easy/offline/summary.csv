@@ -1,0 +1,15 @@
+metric,value
+sequence,V1_01_easy
+mode,fast
+frames,2912
+frames_dropped,0
+keyframes,617
+wall_time_s,212.491
+throughput_fps,13.704
+fps_mean,15.358
+fps_p95,26.722
+latency_mean_us,72877.7
+latency_p95_us,125076.8
+cpu_pct_mean,98.13
+rss_peak_mb,3.125
+alloc_peak_bytes,3627320

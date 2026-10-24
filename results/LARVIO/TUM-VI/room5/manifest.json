@@ -1,0 +1,38 @@
+{
+  "method": "larvio",
+  "sequence": "room5",
+  "profile": {
+    "sensor": "mono cam0",
+    "profile": "256x256 PGM mono + IMU",
+    "config": "config/tum_vi.yaml, scaled to 256x256"
+  },
+  "binary_sha256": "770a6353af4f537a08c16d1f6545bd4e5f6511448d9c0497a1a4ae946e079075",
+  "config": [
+    {
+      "name": "estimator",
+      "argv": [
+        "/root/k230-vio-campaign/bin/larvio",
+        "/dev/shm/k230-vio-campaign/datasets/20261006_082312/larvio/room5/mav0/imu0/data.csv",
+        "/dev/shm/k230-vio-campaign/datasets/20261006_082312/larvio/room5/mav0/cam0/data.csv",
+        "/dev/shm/k230-vio-campaign/datasets/20261006_082312/larvio/room5/mav0/cam0/data",
+        "/root/k230-vio-campaign/cfg/larvio/tum_vi.yaml",
+        "--per-frame-csv",
+        "/dev/shm/k230-vio-campaign/20261006_082312/larvio/room5/raw/framelog.csv",
+        "--per-frame-json",
+        "/dev/shm/k230-vio-campaign/20261006_082312/larvio/room5/raw/summary.json",
+        "--dataset-name",
+        "room5"
+      ]
+    }
+  ],
+  "environment": {
+    "LD_LIBRARY_PATH": "/root/k230-vio-campaign/lib:/root/k230-native/lib:/root/k230-vio-euroc-test-20261005/lib"
+  },
+  "resolution": [
+    256,
+    256
+  ],
+  "imu_source": "/root/dataset/PGM-quarter/tumvi_room5",
+  "groundtruth_source": "/root/dataset/PGM-quarter/tumvi_room5",
+  "runtime_sec_includes_adb_pull": 133.133
+}

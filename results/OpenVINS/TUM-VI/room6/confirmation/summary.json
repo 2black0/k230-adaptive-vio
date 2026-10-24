@@ -1,0 +1,20 @@
+{
+  "method": "openvins",
+  "sequence": "room6",
+  "resolution": "256x256",
+  "dataset": "TUM-VI PGM half",
+  "sensor": "mono cam0",
+  "exit_code": 0,
+  "elapsed_sec": 108.61377337999875,
+  "pose_count": 2573,
+  "requested_frames": null,
+  "fps_wall": 23.68944490122851,
+  "latency_wall_mean_us_per_pose": 42212.892879906234,
+  "latency_pipeline_mean_us": null,
+  "latency_source": "wall_elapsed_per_pose",
+  "cpu_pct_mean": 94.1852941176471,
+  "rss_mb_peak": 46.824,
+  "resource_samples": 510,
+  "ate_rmse": 132.504389,
+  "rpe_rmse": 7.850848
+}

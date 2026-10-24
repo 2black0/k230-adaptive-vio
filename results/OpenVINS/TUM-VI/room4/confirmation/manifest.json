@@ -1,0 +1,56 @@
+{
+  "method": "openvins",
+  "sequence": "room4",
+  "profile": {
+    "sensor": "mono cam0",
+    "profile": "256x256 PGM mono cam0 + IMU",
+    "config": "config/tum_vi_256_stereo/estimator_config.yaml; use_stereo=false, max_cameras=1"
+  },
+  "config_sha256": {
+    "kalibr_imu_chain.yaml": "cb598952ee3766492a332eaae8567fe2b63a9bf6d63b9c0a7b9d988471600a3d",
+    "estimator_config.yaml": "eae9d5d5b913607d56bd913eb129650026288889077d79cfd84a2428605ee3fa",
+    "kalibr_imucam_chain.yaml": "555a1c9a73a53cc5d388ffa815b4dbceb6f9347685ffde4e5c6162e21f1fa86b",
+    "mask_tumvi0.png": "918ed5378be917c356043a9015923881e9460ecf33f2d4827eb1420e85661bc0",
+    "mask_tumvi1.png": "b263bae848ee0ee536b2207f69257cf750a2cd6c6418e0dc4c5b259e0c6e40b6"
+  },
+  "binary_sha256": "4d326a39b8444fb543b5697f9108c587cc3e84abde9ff63e197b886c2d384b10",
+  "config": [
+    {
+      "name": "estimator",
+      "argv": [
+        "/root/k230-vio-campaign/bin/openvins_vins",
+        "/dev/shm/k230-vio-campaign/openvins-confirm-tumvi/openvins/room4/openvins-config/estimator_config.yaml",
+        "/dev/shm/k230-vio-campaign/openvins-confirm-tumvi/openvins/room4/raw"
+      ],
+      "cwd": "/dev/shm/k230-vio-campaign/openvins-confirm-tumvi/openvins/room4/openvins-config"
+    },
+    {
+      "name": "imu",
+      "argv": [
+        "/root/k230-vio-campaign/bin/openvins_imu",
+        "/dev/shm/k230-vio-campaign/datasets/openvins-confirm-tumvi/openvins/room4/mav0"
+      ]
+    },
+    {
+      "name": "camera",
+      "argv": [
+        "/root/k230-vio-campaign/bin/openvins_camera",
+        "/dev/shm/k230-vio-campaign/datasets/openvins-confirm-tumvi/openvins/room4/mav0"
+      ]
+    }
+  ],
+  "environment": {
+    "LD_LIBRARY_PATH": "/root/k230-vio-campaign/lib:/root/k230-native/lib:/root/k230-vio-euroc-test-20261005/lib:/root/k230-vio-campaign/bin",
+    "OPENVINS_STEREO": "0",
+    "OPENVINS_REALTIME": "0",
+    "OPENVINS_SPEEDUP": "8",
+    "OPENVINS_MAX_FRAMES": "0"
+  },
+  "resolution": [
+    256,
+    256
+  ],
+  "imu_source": "/root/dataset/PGM-quarter/tumvi_room4",
+  "groundtruth_source": "/root/dataset/PGM-quarter/tumvi_room4",
+  "runtime_sec_includes_adb_pull": 160.22
+}

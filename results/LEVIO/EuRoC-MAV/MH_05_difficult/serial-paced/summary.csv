@@ -1,0 +1,15 @@
+metric,value
+sequence,MH05
+mode,paced
+frames,2273
+frames_dropped,0
+keyframes,444
+wall_time_s,177.830
+throughput_fps,12.782
+fps_mean,14.746
+fps_p95,24.402
+latency_mean_us,78131.6
+latency_p95_us,140151.5
+cpu_pct_mean,98.76
+rss_peak_mb,4.500
+alloc_peak_bytes,3627320

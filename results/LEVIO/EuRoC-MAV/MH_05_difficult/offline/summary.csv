@@ -1,0 +1,15 @@
+metric,value
+sequence,MH_05_difficult
+mode,fast
+frames,2273
+frames_dropped,0
+keyframes,442
+wall_time_s,176.525
+throughput_fps,12.876
+fps_mean,15.006
+fps_p95,24.107
+latency_mean_us,77566.3
+latency_p95_us,140892.5
+cpu_pct_mean,98.14
+rss_peak_mb,3.250
+alloc_peak_bytes,3627320

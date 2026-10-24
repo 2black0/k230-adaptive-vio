@@ -1,0 +1,15 @@
+{
+  "files": {
+    "stress.sh": "2f4ff55f04197cef8493b2664bfd614dd69b8ffb368e5f461798885acd3a252c",
+    "board_run.sh": "13b99f1b116ad86e7ca3f4cb520892a9c51ec19823cf8a532419826d1ce4b4f8",
+    "eqvio_opt": "821171e411529f8dd000ca9336f15617e2719adf74187352051b305dc8472c8a",
+    "main_opt.cpp": "7da34ab4797f74424173f819113c8a5d50f868bdce04426196d551afe0cec6ff",
+    "euroc.yaml": "a0eebc3a25dcfdaa669827545af53600be3cc473c9e12d76a94088d0af32da27",
+    "tum-vi.yaml": "e15f702fb59f1cdecd9d4661787e349c05d477085a97631651f5755320f78efe",
+    "runner.py": "14d872395eaa2ccd1915f10db86d6f21919770973178d26ff3f1734c38966d40"
+  },
+  "profile": "tumvi-five-arm",
+  "after": null,
+  "deadline_ms": 50,
+  "scope": "timestamp-paced camera/IMU replay, estimator output-ready; no sensor-driver or downstream transport latency"
+}

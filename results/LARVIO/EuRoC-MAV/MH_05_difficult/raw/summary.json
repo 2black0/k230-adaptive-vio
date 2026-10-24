@@ -1,0 +1,17 @@
+{
+  "dataset": "MH_05_difficult",
+  "num_frames_total": 2273,
+  "num_frames_processed": 2252,
+  "exec_time_s": 231.826602,
+  "fps_avg": 9.804742,
+  "ate_rmse_m": null,
+  "tsr_pct": 99.076111,
+  "timing_us": {
+    "frame_interval": { "mean": 102031.359155, "min": 48717.000000, "max": 353169.000000 },
+    "pipeline_latency": { "mean": 93941.896172, "min": 13.000000, "max": 345693.000000 }
+  },
+  "metrics": {
+    "throughput": { "value": 9.804742, "unit": "fps" },
+    "tsr": { "value": 99.076111, "unit": "%" }
+  }
+}

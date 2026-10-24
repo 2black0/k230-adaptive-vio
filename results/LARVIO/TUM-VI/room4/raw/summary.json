@@ -1,0 +1,17 @@
+{
+  "dataset": "room4",
+  "num_frames_total": 2228,
+  "num_frames_processed": 1080,
+  "exec_time_s": 103.684288,
+  "fps_avg": 21.488309,
+  "ate_rmse_m": null,
+  "tsr_pct": 48.473968,
+  "timing_us": {
+    "frame_interval": { "mean": 46553.018859, "min": 18095.000000, "max": 508166.000000 },
+    "pipeline_latency": { "mean": 39600.049372, "min": 14.000000, "max": 400240.000000 }
+  },
+  "metrics": {
+    "throughput": { "value": 21.488309, "unit": "fps" },
+    "tsr": { "value": 48.473968, "unit": "%" }
+  }
+}

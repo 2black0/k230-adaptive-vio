@@ -1,0 +1,13 @@
+###### Camera Calibration File For Cam 0 of TUM-VI 512 Datasets ######
+image_width: 256
+image_height: 256
+camera_name: cam0
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [95.48923857564358, 0.0, 127.46585302967738, 0.0, 95.4866535260613, 128.4487214498252, 0.0, 0.0, 1.0]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data:  [0.0034823892584143414, 0.0007150348452162257, -0.0020532361418706202, 0.00020293673591811182]

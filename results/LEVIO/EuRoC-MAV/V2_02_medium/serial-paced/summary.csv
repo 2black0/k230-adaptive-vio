@@ -1,0 +1,15 @@
+metric,value
+sequence,V202
+mode,paced
+frames,2348
+frames_dropped,0
+keyframes,994
+wall_time_s,193.818
+throughput_fps,12.114
+fps_mean,13.365
+fps_p95,20.355
+latency_mean_us,82436.1
+latency_p95_us,127713.5
+cpu_pct_mean,98.29
+rss_peak_mb,4.500
+alloc_peak_bytes,3627320

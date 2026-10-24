@@ -1,0 +1,54 @@
+{
+  "method": "openvins",
+  "sequence": "V2_02_medium",
+  "profile": {
+    "sensor": "mono cam0",
+    "profile": "376x240 PGM mono cam0 + IMU",
+    "config": "config/euroc_mav_376_stereo/estimator_config.yaml; use_stereo=false, max_cameras=1"
+  },
+  "config_sha256": {
+    "kalibr_imu_chain.yaml": "408ea8b60b5f9e7c8251e6d302f04c0675bfefdd31229bb1afd139bc8f4a0287",
+    "estimator_config.yaml": "c63ef8fd13a8786c69b31bb4b477c75fc2f8fceeb72db72a3b1696035b2b2baf",
+    "kalibr_imucam_chain.yaml": "07f60c71e8eca4845a874ec30ede0929378924db365cba8b06b9b64222389a67"
+  },
+  "binary_sha256": "6563930876f71a33e38c91f5cc309e7a69c0c2ab6053d14082aeb9924b7546f8",
+  "config": [
+    {
+      "name": "estimator",
+      "argv": [
+        "/root/k230-vio-campaign/bin/openvins_vins",
+        "/dev/shm/k230-vio-campaign/openvins-euroc/openvins/V2_02_medium/openvins-config/estimator_config.yaml",
+        "/dev/shm/k230-vio-campaign/openvins-euroc/openvins/V2_02_medium/raw"
+      ],
+      "cwd": "/dev/shm/k230-vio-campaign/openvins-euroc/openvins/V2_02_medium/openvins-config"
+    },
+    {
+      "name": "imu",
+      "argv": [
+        "/root/k230-vio-campaign/bin/openvins_imu",
+        "/dev/shm/k230-vio-campaign/datasets/openvins-euroc/openvins/V2_02_medium/mav0"
+      ]
+    },
+    {
+      "name": "camera",
+      "argv": [
+        "/root/k230-vio-campaign/bin/openvins_camera",
+        "/dev/shm/k230-vio-campaign/datasets/openvins-euroc/openvins/V2_02_medium/mav0"
+      ]
+    }
+  ],
+  "environment": {
+    "LD_LIBRARY_PATH": "/root/k230-vio-campaign/lib:/root/k230-native/lib:/root/k230-vio-euroc-test-20261005/lib:/root/k230-vio-campaign/bin",
+    "OPENVINS_STEREO": "0",
+    "OPENVINS_REALTIME": "0",
+    "OPENVINS_SPEEDUP": "8",
+    "OPENVINS_MAX_FRAMES": "0"
+  },
+  "resolution": [
+    376,
+    240
+  ],
+  "imu_source": "/home/ardyseto/dataset/PGM-quarter/euroc_V2_02_medium",
+  "groundtruth_source": "/home/ardyseto/dataset/PGM-quarter/euroc_V2_02_medium",
+  "runtime_sec_includes_adb_pull": 226.836
+}

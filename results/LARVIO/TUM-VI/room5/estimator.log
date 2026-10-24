@@ -1,0 +1,84 @@
+
+===========================================
+using FEJ...
+estimating td... initial td = 0
+estimating extrinsic...
+not calibrating imu instrinsic online...
+Hybrid MSCKF...Maximum number of feature in state is 30
+features augmented into state will use 1d idp
+===========================================
+
+Images from now on will be utilized...
+
+Dynamic initialization success !
+
+No feature is tracked after descriptor matching!
+delta velocity: 0.176114
+delta position: 1.497808
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked after descriptor matching!
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+delta velocity: 0.277603
+delta position: 4.775911
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked after descriptor matching!
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+delta velocity: 0.112485
+delta position: 2.199551
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked after descriptor matching!
+delta velocity: 0.097718
+delta position: 1.378055
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked !No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature in prev img !
+No feature is tracked after descriptor matching!
+No feature in prev img !
+delta velocity: 0.128277
+delta position: 1.989131
+in measurementUpdate_hybrid: Update change is too large.
+No feature is tracked after descriptor matching!
+delta velocity: 0.095973
+delta position: 2.488030
+in measurementUpdate_hybrid: Update change is too large.
+delta velocity: 0.165403
+delta position: 2.472977
+in measurementUpdate_hybrid: Update change is too large.

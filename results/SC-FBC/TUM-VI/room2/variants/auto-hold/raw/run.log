@@ -1,0 +1,52 @@
+main:autoStartGate was not found in the configuration.
+The following items were found in the configuration provided:
+GIFT eqf main sim 
+maxFeatures was not found in the configuration.
+The following items were found in the configuration provided:
+
+measurementNoise:rankRecoveryRetention was not found in the configuration.
+The following items were found in the configuration provided:
+initialValue initialVariance measurementNoise processVariance settings velocityNoise 
+initialVariance:pointDepth was not found in the configuration.
+The following items were found in the configuration provided:
+initialValue initialVariance measurementNoise processVariance settings velocityNoise 
+settings:useDiscreteStateMatrix was not found in the configuration.
+The following items were found in the configuration provided:
+initialValue initialVariance measurementNoise processVariance settings velocityNoise 
+settings:removeLostLandmarks was not found in the configuration.
+The following items were found in the configuration provided:
+initialValue initialVariance measurementNoise processVariance settings velocityNoise 
+initialValue:initialisationWindow was not found in the configuration.
+The following items were found in the configuration provided:
+initialValue initialVariance measurementNoise processVariance settings velocityNoise 
+initialValue:cameraOffset was not found in the configuration.
+The following items were found in the configuration provided:
+initialValue initialVariance measurementNoise processVariance settings velocityNoise 
+IMU initialisation window: 0 s
+Initial velocity variance: 8.97485e-08, gyro-bias variance: 97162.8
+Camera extrinsics were provided by the dataset, overriding those in the filter settings.
+The camera extrinsics (pose of the camera w.r.t. the IMU) are:
+  -0.999525   0.0296153 -0.00852233   0.0472799
+ 0.00750192  -0.0343974    -0.99938  -0.0474432
+ -0.0298901   -0.998969   0.0341589     -0.0682
+          0           0           0           1
+Adaptive budget (N1, starvation guard): maxFeatures 5 while the filter uses >= 8 measurements, 20 as soon as it drops below
+  auto-hold: +40 frames per unit recent switch-rate over the last 50 frames
+main:dynmaskMinRank was not found in the configuration.
+The following items were found in the configuration provided:
+GIFT eqf main sim 
+main:gateImuVerify was not found in the configuration.
+The following items were found in the configuration provided:
+GIFT eqf main sim 
+main:gateTauImu was not found in the configuration.
+The following items were found in the configuration provided:
+GIFT eqf main sim 
+main:gateSoftWeight was not found in the configuration.
+The following items were found in the configuration provided:
+GIFT eqf main sim 
+Dynamic masking mode: blanket (blanket pad=5px)
+Initialised from 1 IMU sample(s) spanning 0 s; gravity direction differs from the first sample by 8.53774e-07 deg.
+Processed 28732 IMU and 2882 vision measurements.
+Time taken: 144.107 seconds.
+Memory: 12416 KiB before the first frame, 20096 KiB at the end, 20096 KiB peak.
+Adaptive budget (N1): 1 switches between 40 px (dense) and 80 px (sparse); final rank EMA 8.10858, final spacing 80 px.

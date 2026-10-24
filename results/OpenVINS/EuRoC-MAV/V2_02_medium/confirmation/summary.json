@@ -1,0 +1,20 @@
+{
+  "method": "openvins",
+  "sequence": "V2_02_medium",
+  "resolution": "376x240",
+  "dataset": "EuRoC-MAV PGM half",
+  "sensor": "mono cam0",
+  "exit_code": 0,
+  "elapsed_sec": 226.8917772360146,
+  "pose_count": 2280,
+  "requested_frames": null,
+  "fps_wall": 10.048843672410067,
+  "latency_wall_mean_us_per_pose": 99513.93738421693,
+  "latency_pipeline_mean_us": null,
+  "latency_source": "wall_elapsed_per_pose",
+  "cpu_pct_mean": 95.66476279069774,
+  "rss_mb_peak": 47.383,
+  "resource_samples": 1075,
+  "ate_rmse": 0.085007,
+  "rpe_rmse": 0.033064
+}

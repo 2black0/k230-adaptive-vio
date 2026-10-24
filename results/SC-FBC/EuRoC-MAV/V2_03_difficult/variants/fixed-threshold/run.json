@@ -1,0 +1,358 @@
+{
+  "dataset": "euroc",
+  "sequence": "v203",
+  "resolution": "half",
+  "arm": "base-policy",
+  "seed": 0,
+  "logging": true,
+  "block": "euroc-five-arm",
+  "stress": false,
+  "full_start": false,
+  "id": "euroc-five-arm/euroc/v203/base-policy/s0",
+  "expected_frames": 1922,
+  "start_offset_s": 0,
+  "input": {
+    "camera_source": "/root/dataset/PGM-half/euroc_V2_03_difficult/mav0/cam0",
+    "imu_source": "/root/dataset/PGM-quarter/euroc_V2_03_difficult/mav0/imu0",
+    "camera_manifest_sha256": "bcfb599ca571392068abae7018c264f48405266b3e34d173a61fdacb947514d3",
+    "imu_sha256": "55911f078feea76eb5bdeb97c9ebbebb679de39c4dd44c50e81064d5d8cf77f6",
+    "calibration_sha256": "d559720fb5ac9cd86589a7e941d00cbb91b8b897acbc54a43d650414274ccee1",
+    "frames": 1922,
+    "first_stamp": 1413394881.5557604,
+    "camera_median_dt_s": 0.05000019073486328
+  },
+  "campaign_binary_sha256": "821171e411529f8dd000ca9336f15617e2719adf74187352051b305dc8472c8a",
+  "config_sha256": "a0eebc3a25dcfdaa669827545af53600be3cc473c9e12d76a94088d0af32da27",
+  "command": [
+    "/root/k230-realtime-euroc-five-arm-20261013/eqvio_opt",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/input/",
+    "/root/k230-realtime-euroc-five-arm-20261013/euroc.yaml",
+    "--mode",
+    "asl",
+    "--output",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/runs/euroc-five-arm/euroc/v203/base-policy/s0",
+    "--camera",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/input/intrinsics.yaml",
+    "--timing",
+    "--limitRate",
+    "0",
+    "--pacedReplay",
+    "--seed",
+    "0",
+    "--featureDistOverride",
+    "80",
+    "--filterLog",
+    "/tmp/k230-realtime-euroc-five-arm-20261013/runs/euroc-five-arm/euroc/v203/base-policy/s0/filterlog.csv",
+    "--adaptiveBudget",
+    "starve",
+    "--adaptiveBudgetMaxLow",
+    "5",
+    "--adaptiveBudgetMaxHigh",
+    "20",
+    "--adaptiveBudgetMeasFloor",
+    "8",
+    "--adaptiveBudgetHold",
+    "5",
+    "--adaptiveBudgetAutoFloorWindow",
+    "50",
+    "--adaptiveBudgetAutoFloorPercentile",
+    "40",
+    "--adaptiveBudgetAutoHoldWindow",
+    "50",
+    "--adaptiveBudgetAutoHoldGain",
+    "40"
+  ],
+  "board_before": "37308.69 31082.11\n7161",
+  "board_after": "37426.90 31154.78\n7159",
+  "exit_code": 0,
+  "raw_sha256": {
+    "run_config.csv": "70b8a71c2b10ba638cdd398bbb957b70970a0b8a62f43759a566644057d2e101",
+    "IMUState.csv": "c3aa4bfa2a84809890cf3c0e9846d5522128b8b6e38ea920d462201de59b1f62",
+    "die_milliC_end": "d659b58c573b05cd210a4ed30cdfd44ee099242ba30ee1d5b7531d7ef17eeab1",
+    "bias.csv": "1fec07f54b626d5dd73e6a67d88fffa484898711e2986ebfbc93c801a96513f4",
+    "memory.csv": "c9c0b45232eac740bdd2ade4667b8ccf3907cb56ae5d6b13ff6589aa91981e06",
+    "resource.csv": "4c8c0dff5d0e731f5da4881c569dc97442645e906e0c28ddddc6ad729a209742",
+    "replay_epoch.txt": "7229756b87b251c632072e841385b57ada0acab366797b0ca8b0e0ce84882c6b",
+    "timing.csv": "30ab036d19b4b05baafce667e83c6805d45e559063cbc15c96de9f3fa42c6f2c",
+    "realtime.csv": "0b973f266b5000850b9594178eb11cfe13a7fe9434aa60b41e749411f6937181",
+    "EXITCODE": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "uptime_end_s": "23bc4fc186ce47e8ae6965397294b80c0cfbbebed8959d6d88099184cbeffb31",
+    "runner.pid": "9b87729fcc62e30a52e11a1982eb0252823cf623f0df4ce97d786ecc7b81eb0b",
+    "run.log": "38b6e29cae895ab3300658823b76157e759d77ffc4f7d34f16de9fda4e8ae11d",
+    "camera.csv": "af11e2cd5571b48b3d03921df813de2c15411f0d351302c131eb079113069d46",
+    "filterlog.csv": "acc1297dbc4c3fc99fd0f5ba3ffb5e3f78a75ce125e305d842b99b0fa3e5fa57"
+  },
+  "evaluated_at": "2026-10-13T10:42:21.265539+00:00",
+  "processed_frames": 1922,
+  "estimator_duration_s": 116.865,
+  "stage_mean_ms": {
+    "correction": 0.3943155369406868,
+    "detect": 12.420617112382935,
+    "features": 18.078405967741936,
+    "image load": 0.4319167882414152,
+    "klt": 5.182628226847035,
+    "nn_detect": 0.0,
+    "preprocessing": 0.0851794505723205,
+    "propagate": 0.0,
+    "propagation": 0.6238315171696149,
+    "selective": 0.0,
+    "static ransac": 0.43167752601456816,
+    "total": 19.645144500520292,
+    "total vision update": 1.1185727414151925,
+    "write output": 0.6841789594172737
+  },
+  "detector_call_fraction": 0.9921956295525495,
+  "filterlog_rows": 1922,
+  "controller": {
+    "switches": 7,
+    "starvation_fraction": 0.913111342351717,
+    "floor": {
+      "mean": 8.0,
+      "p50": 8.0,
+      "p95": 8.0,
+      "p99": 8.0,
+      "max": 8.0
+    },
+    "hold": {
+      "mean": 5.0,
+      "p50": 5.0,
+      "p95": 5.0,
+      "p99": 5.0,
+      "max": 5.0
+    }
+  },
+  "accepted_observations": {
+    "mean": 5.302289281997919,
+    "p50": 5.0,
+    "p95": 8.0,
+    "p99": 9.0,
+    "max": 11.0
+  },
+  "applied_update_fraction": 0.9994797086368367,
+  "memory_rows": [
+    {
+      "frame": "0",
+      "rss_kib": "12160",
+      "peak_kib": "12160"
+    },
+    {
+      "frame": "1",
+      "rss_kib": "13552",
+      "peak_kib": "14848"
+    },
+    {
+      "frame": "100",
+      "rss_kib": "13848",
+      "peak_kib": "15736"
+    },
+    {
+      "frame": "200",
+      "rss_kib": "14076",
+      "peak_kib": "16068"
+    },
+    {
+      "frame": "300",
+      "rss_kib": "14296",
+      "peak_kib": "16288"
+    },
+    {
+      "frame": "400",
+      "rss_kib": "14428",
+      "peak_kib": "16388"
+    },
+    {
+      "frame": "500",
+      "rss_kib": "14596",
+      "peak_kib": "16516"
+    },
+    {
+      "frame": "600",
+      "rss_kib": "14732",
+      "peak_kib": "16652"
+    },
+    {
+      "frame": "700",
+      "rss_kib": "14880",
+      "peak_kib": "16800"
+    },
+    {
+      "frame": "800",
+      "rss_kib": "14896",
+      "peak_kib": "16816"
+    },
+    {
+      "frame": "900",
+      "rss_kib": "15200",
+      "peak_kib": "17120"
+    },
+    {
+      "frame": "1000",
+      "rss_kib": "15256",
+      "peak_kib": "17176"
+    },
+    {
+      "frame": "1100",
+      "rss_kib": "15308",
+      "peak_kib": "17228"
+    },
+    {
+      "frame": "1200",
+      "rss_kib": "15364",
+      "peak_kib": "17284"
+    },
+    {
+      "frame": "1300",
+      "rss_kib": "15416",
+      "peak_kib": "17336"
+    },
+    {
+      "frame": "1400",
+      "rss_kib": "17672",
+      "peak_kib": "17672"
+    },
+    {
+      "frame": "1500",
+      "rss_kib": "17660",
+      "peak_kib": "18056"
+    },
+    {
+      "frame": "1600",
+      "rss_kib": "17788",
+      "peak_kib": "18056"
+    },
+    {
+      "frame": "1700",
+      "rss_kib": "18428",
+      "peak_kib": "18428"
+    },
+    {
+      "frame": "1800",
+      "rss_kib": "18428",
+      "peak_kib": "18428"
+    },
+    {
+      "frame": "1900",
+      "rss_kib": "18428",
+      "peak_kib": "18428"
+    },
+    {
+      "frame": "1922",
+      "rss_kib": "18428",
+      "peak_kib": "18428"
+    }
+  ],
+  "process_peak_rss_mib": 17.99609375,
+  "timing_rows": 1922,
+  "pipeline_latency_ms": {
+    "mean": 19.645144500520292,
+    "p50": 18.6706,
+    "p95": 31.905539999999995,
+    "p99": 41.59727799999998,
+    "max": 49.1308
+  },
+  "offline_pipeline_over_50ms_fraction": 0.0,
+  "cpu_pct": {
+    "mean": 32.88699074074074,
+    "p50": 35.519999999999996,
+    "p95": 44.8,
+    "p99": 48.80199999999999,
+    "max": 50.0
+  },
+  "sampled_rss_mib": {
+    "mean": 15.988592592592592,
+    "p50": 16.041,
+    "p95": 17.996,
+    "p99": 17.996,
+    "max": 17.996
+  },
+  "complete_input": true,
+  "accuracy": {
+    "ate_rmse_m": 0.42536154092196843,
+    "rpe_rmse_m": 0.011591609502824262,
+    "association_tolerance_s": 0.01,
+    "associated_poses": 1890,
+    "estimated_poses": 1921,
+    "association_max_difference_s": 2.384185791015625e-07,
+    "converged": true,
+    "rotation": [
+      [
+        0.999853261379439,
+        -0.014528301408697727,
+        -0.009076572430012328
+      ],
+      [
+        0.014954363108393005,
+        0.99869739326044,
+        0.048784051890189355
+      ],
+      [
+        0.008355999815794673,
+        -0.04891262774560766,
+        0.9987681072772088
+      ]
+    ],
+    "translation": [
+      -0.582300318707025,
+      0.1951953806468952,
+      1.146797045247058
+    ],
+    "scale": 1.0
+  },
+  "rpe_1s_individual": {
+    "rpe_rmse_m": 0.10004449640029571,
+    "maximum_error_m": 0.4265139758175327,
+    "common_windows": 1139,
+    "horizon_s": 1.0,
+    "grid_step_s": 0.1,
+    "gt_time_origin_s": 1413394882.7907605
+  },
+  "trajectory_sha256": "cfc2837245cb85ae7568664364ac0179fd799c972cfc60ace2d76c67ba56e268",
+  "verdict": "ok",
+  "paced_estimator_fps": 16.44632695845634,
+  "realtime": {
+    "frames": 1922,
+    "arrival_to_output_ms": {
+      "mean": 20.564850765474915,
+      "p50": 19.4823952395633,
+      "p95": 34.04865093047743,
+      "p99": 43.82269544196574,
+      "max": 52.8221373162836
+    },
+    "processing_ms": {
+      "mean": 20.44339596774197,
+      "p50": 19.414499999998114,
+      "p95": 32.91884250000265,
+      "p99": 43.42267831999809,
+      "max": 50.267851999997504
+    },
+    "dispatch_lateness_ms": {
+      "mean": 0.12145479773294512,
+      "p50": 0.06464560699370736,
+      "p95": 0.13409174979237526,
+      "p99": 2.266830877703815,
+      "max": 4.398567948854293
+    },
+    "deadline_ms": 50,
+    "deadline_miss_fraction": 0.001040582726326743,
+    "pending_camera_at_dispatch": {
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 0.0
+    },
+    "pending_camera_at_output": {
+      "mean": 0.001040582726326743,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 1.0
+    },
+    "camera_median_dt_s": 0.05000019073486328,
+    "final_output_lag_ms": 9.625914581420147,
+    "backlog_slope_frames_per_s": 0.0,
+    "expected_input_frames": 1922,
+    "unprocessed_input_frames": 0,
+    "policy": "lossless timestamp-scheduled replay; pending cameras inferred from schedule; no live capture"
+  }
+}
